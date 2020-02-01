@@ -5,14 +5,25 @@
 			<ChildrenList>
 				<SoundBank Name="soundbank" ID="{79D1F125-BCAE-4051-9082-42CCA1500CB9}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_ToolsEvent" ID="{4504D6DF-79B6-4096-A45F-A3F37D733074}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_SFX_Fire_loop" ID="{3371AA0F-74A3-40CA-BF4B-42B37CF040D9}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_AMB_spaceship" ID="{35B770A1-2918-4186-803C-6AB4773E277D}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_teleportAlien" ID="{C696CB82-87AE-4344-BF3D-37E06EBF48B8}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_start_menu" ID="{B36E7CE3-ED29-445E-B7EC-A305054499D2}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_SFX_Fire_loop" ID="{70650F19-920A-4471-8803-A2954BC940CF}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="event_faille" ID="{A7B0EA7A-3780-447C-A0BF-D91F49F4AA96}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_RND_Batterie_Trig" ID="{C96CCAA3-DE84-44BB-84F4-C939045A3D57}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_SFX_Processeur_Trig" ID="{0066240E-159E-459D-8498-B883B18416C2}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_SFX_endFire" ID="{C786D294-8F68-45A0-8BA5-6514F5BDFF2A}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_teleportAlien" ID="{19103856-0A38-463B-A5B1-B5726EA5447A}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_SFX_faille_loop" ID="{6841ADCA-CD8E-4650-9233-130CF3A38595}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Rnd_Fart_eggs" ID="{71602D75-E5C3-465E-8546-101EBE3C4304}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_SFX_Grab" ID="{95D084DB-D302-4668-B66B-DDAFF89D3AC6}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Rnd_Launch_object" ID="{6C76C30F-C4BB-471D-B8C2-B13DD308F7C5}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Music_Switch" ID="{21FFA319-A6A4-4820-BF8B-913845388A60}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Switch_Play_Tools" ID="{0DF57556-B39C-4BBF-944E-F1B4FE760E46}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_SFX_speedEffect_cornichon" ID="{FBEC3C32-83E1-4BF9-9B1B-70706E9B50DE}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_StartGame" ID="{F5C35A50-AC76-4C56-9A06-A006A1CF24E4}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Switch_Stop_Tools" ID="{1E7D784E-FACD-4C9D-ADA5-222E15E7AC17}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_RND_pipKey_Menu" ID="{8BEBECFE-7DF1-4CBF-9AB0-54CFB01798C7}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

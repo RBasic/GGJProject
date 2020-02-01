@@ -41,15 +41,6 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="Filtre" ID="{D904929A-6F0A-4461-8687-075F1CCEEFD1}">
-							<PropertyList>
-								<Property Name="Lowpass" Type="int16">
-									<RTPCList>
-										<RTPC Name="" ID="{DA1F9674-3529-4741-BB50-8C1E144CBA04}" ShortID="284973610">
-											<ReferenceList/>
-										</RTPC>
-									</RTPCList>
-								</Property>
-							</PropertyList>
 							<StateInfo>
 								<StateGroupList>
 									<StateGroupInfo>
