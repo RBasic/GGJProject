@@ -1,0 +1,7 @@
+soundbank	"Switch_Play_Tools"
+soundbank	"Switch_Stop_Tools"
+soundbank	"Play_SFX_Grab"
+soundbank	"Play_AMB_spaceship"
+soundbank	"Play_RND_Batterie_Trig"
+soundbank	"Play_SFX_Processeur_Trig"
+soundbank	"Play_SFX_Radar_Trig"

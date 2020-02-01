@@ -224,19 +224,19 @@
 								</GroupingBehaviorList>
 								<GroupingList>
 									<Grouping>
-										<SwitchRef Name="extinguisher" ID="{6760DDB2-5A49-4899-96DD-19031B1BCE9E}"/>
+										<SwitchRef Name="Extincteur" ID="{6760DDB2-5A49-4899-96DD-19031B1BCE9E}"/>
 										<ItemList>
 											<ItemRef Name="SFX_extinguisher" ID="{0F871D61-8737-403C-81D1-FACB198C1F05}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
-										<SwitchRef Name="pip_key" ID="{F88491C4-928C-4583-A226-69941811E04D}"/>
+										<SwitchRef Name="Outils" ID="{F88491C4-928C-4583-A226-69941811E04D}"/>
 										<ItemList>
 											<ItemRef Name="RND_pipKey" ID="{410AE6F2-BF2E-4ADB-85BA-425E4D600BB6}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
-										<SwitchRef Name="soldering_iron" ID="{51EBB0D3-3A7D-4F96-8239-47387901899D}"/>
+										<SwitchRef Name="Fer_a_souder" ID="{51EBB0D3-3A7D-4F96-8239-47387901899D}"/>
 										<ItemList>
 											<ItemRef Name="RND_Soldering" ID="{4E8E2362-200C-47DD-9661-D9DD9157BF56}"/>
 										</ItemList>

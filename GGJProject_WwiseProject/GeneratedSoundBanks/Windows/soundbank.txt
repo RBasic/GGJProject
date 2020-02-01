@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	166641916	Play_SFX_Processeur_Trig			\Default Work Unit\Play_SFX_Processeur_Trig	
 	991799054	Play_RND_Batterie_Trig			\Default Work Unit\Play_RND_Batterie_Trig	
+	1835716282	Play_Rnd_Launch_object			\Default Work Unit\Play_Rnd_Launch_object	
 	2464809808	Play_SFX_Grab			\Default Work Unit\Play_SFX_Grab	
 	3117655700	Switch_Stop_Tools			\Default Work Unit\Switch_Stop_Tools	
 	4247771906	Switch_Play_Tools			\Default Work Unit\Switch_Play_Tools	
@@ -9,20 +10,24 @@ Switch Group	ID	Name			Wwise Object Path	Notes
 	1353321450	Tools			\Default Work Unit\Tools\Tools	
 
 Switch	ID	Name	Switch Group			Notes
-	2426358648	pip_key	Tools			
-	2495567647	soldering_iron	Tools			
-	2517871800	extinguisher	Tools			
+	1019588287	Outils	Tools			
+	3458431671	Fer_a_souder	Tools			
+	4125604122	Extincteur	Tools			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	179365573	SFX_Grab	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_grab_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\SFX_Grab		53568
-	195789531	SFX_Pipkey_02	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Clef_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\Tools\RND_pipKey\SFX_Pipkey_02		32064
-	230481105	SFX_PipKey_01	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Clef_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\Tools\RND_pipKey\SFX_PipKey_01		43760
-	274256067	SFX_batterie_02	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_batterie_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\ToolsEvent\RND_Batterie\SFX_batterie_02		160788
-	281076293	SFX_soldering_01	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\Fer à souder_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\Tools\RND_Soldering\SFX_soldering_01		323648
-	376382103	SFX_extinguisher	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Extincteur_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\Tools\SFX_extinguisher		835648
-	415784461	SFX_soldering_02	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\Fer à souder_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\Tools\RND_Soldering\SFX_soldering_02		439872
-	609514943	SFX_Processeur	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Processeur_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\ToolsEvent\SFX_Processeur		1024064
-	777022417	SFX_Batterie_01	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Batterie_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\ToolsEvent\RND_Batterie\SFX_Batterie_01		152640
-	853975709	SFX_Pipkey_03	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Clef_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\Tools\RND_pipKey\SFX_Pipkey_03		28352
-	891603908	SFX_Batterie_03	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Batterie_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\ToolsEvent\RND_Batterie\SFX_Batterie_03		129192
+	179365573	SFX_Grab	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_grab_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\SFX_Grab		53568
+	195789531	SFX_Pipkey_02	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Clef_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\Tools\RND_pipKey\SFX_Pipkey_02		32064
+	230481105	SFX_PipKey_01	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Clef_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\Tools\RND_pipKey\SFX_PipKey_01		43760
+	274256067	SFX_batterie_02	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_batterie_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\ToolsEvent\RND_Batterie\SFX_batterie_02		160788
+	281076293	SFX_soldering_01	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\Fer à souder_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\Tools\RND_Soldering\SFX_soldering_01		323648
+	376382103	SFX_extinguisher	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Extincteur_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\Tools\SFX_extinguisher		835648
+	394909220	SFX_Launch_03	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Launch_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Rnd_Launch_object\SFX_Launch_03		36336
+	415784461	SFX_soldering_02	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\Fer à souder_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\Tools\RND_Soldering\SFX_soldering_02		439872
+	609514943	SFX_Processeur	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Processeur_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\ToolsEvent\SFX_Processeur		1024064
+	748120893	SFX_Launch_02	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Launch_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Rnd_Launch_object\SFX_Launch_02		40592
+	777022417	SFX_Batterie_01	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Batterie_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\ToolsEvent\RND_Batterie\SFX_Batterie_01		152640
+	787040562	SFX_Launch_04	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Launch_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Rnd_Launch_object\SFX_Launch_04		39412
+	853975709	SFX_Pipkey_03	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Clef_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\Tools\RND_pipKey\SFX_Pipkey_03		28352
+	891603908	SFX_Batterie_03	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Batterie_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\ToolsEvent\RND_Batterie\SFX_Batterie_03		129192
+	1034194567	SFX_Launch_01	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Launch_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Rnd_Launch_object\SFX_Launch_01		44000
 

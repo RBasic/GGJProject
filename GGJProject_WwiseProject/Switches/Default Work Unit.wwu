@@ -7,9 +7,9 @@
 					<ChildrenList>
 						<SwitchGroup Name="Tools" ID="{24B451F2-6EC0-46B1-BDC3-30C58CFAA35D}">
 							<ChildrenList>
-								<Switch Name="soldering_iron" ID="{51EBB0D3-3A7D-4F96-8239-47387901899D}"/>
-								<Switch Name="pip_key" ID="{F88491C4-928C-4583-A226-69941811E04D}"/>
-								<Switch Name="extinguisher" ID="{6760DDB2-5A49-4899-96DD-19031B1BCE9E}"/>
+								<Switch Name="Fer_a_souder" ID="{51EBB0D3-3A7D-4F96-8239-47387901899D}"/>
+								<Switch Name="Outils" ID="{F88491C4-928C-4583-A226-69941811E04D}"/>
+								<Switch Name="Extincteur" ID="{6760DDB2-5A49-4899-96DD-19031B1BCE9E}"/>
 							</ChildrenList>
 						</SwitchGroup>
 					</ChildrenList>
