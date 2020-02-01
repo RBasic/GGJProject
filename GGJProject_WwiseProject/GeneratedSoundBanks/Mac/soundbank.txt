@@ -1,8 +1,10 @@
 Event	ID	Name			Wwise Object Path	Notes
+	46816298	Stop_SFX_faille_loop			\Default Work Unit\Stop_SFX_faille_loop	
 	166641916	Play_SFX_Processeur_Trig			\Default Work Unit\Play_SFX_Processeur_Trig	
 	991799054	Play_RND_Batterie_Trig			\Default Work Unit\Play_RND_Batterie_Trig	
 	1835716282	Play_Rnd_Launch_object			\Default Work Unit\Play_Rnd_Launch_object	
 	2464809808	Play_SFX_Grab			\Default Work Unit\Play_SFX_Grab	
+	2668492475	event_faille			\Default Work Unit\event_faille	
 	3117655700	Switch_Stop_Tools			\Default Work Unit\Switch_Stop_Tools	
 	4247771906	Switch_Play_Tools			\Default Work Unit\Switch_Play_Tools	
 
@@ -15,19 +17,21 @@ Switch	ID	Name	Switch Group			Notes
 	4125604122	Extincteur	Tools			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	179365573	SFX_Grab	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX_grab_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\SFX_Grab		53568
+	174739024	SFX_extinguisher	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\MetalHit IE03_69_01-01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\Tools\SFX_extinguisher		378944
+	179365573	SFX_Grab	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX_grab_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\géneric action\SFX_Grab		53568
 	195789531	SFX_Pipkey_02	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX_Clef_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\Tools\RND_pipKey\SFX_Pipkey_02		32064
 	230481105	SFX_PipKey_01	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX_Clef_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\Tools\RND_pipKey\SFX_PipKey_01		43760
 	274256067	SFX_batterie_02	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX_batterie_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\ToolsEvent\RND_Batterie\SFX_batterie_02		160788
 	281076293	SFX_soldering_01	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\Fer à souder_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\Tools\RND_Soldering\SFX_soldering_01		323648
-	376382103	SFX_extinguisher	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX_Extincteur_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\Tools\SFX_extinguisher		835648
-	394909220	SFX_Launch_03	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX_Launch_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Rnd_Launch_object\SFX_Launch_03		36336
+	394909220	SFX_Launch_03	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX_Launch_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\géneric action\Rnd_Launch_object\SFX_Launch_03		36336
 	415784461	SFX_soldering_02	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\Fer à souder_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\Tools\RND_Soldering\SFX_soldering_02		439872
 	609514943	SFX_Processeur	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX_Processeur_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\ToolsEvent\SFX_Processeur		1024064
-	748120893	SFX_Launch_02	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX_Launch_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Rnd_Launch_object\SFX_Launch_02		40592
+	748120893	SFX_Launch_02	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX_Launch_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\géneric action\Rnd_Launch_object\SFX_Launch_02		40592
 	777022417	SFX_Batterie_01	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX_Batterie_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\ToolsEvent\RND_Batterie\SFX_Batterie_01		152640
-	787040562	SFX_Launch_04	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX_Launch_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Rnd_Launch_object\SFX_Launch_04		39412
+	787040562	SFX_Launch_04	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX_Launch_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\géneric action\Rnd_Launch_object\SFX_Launch_04		39412
 	853975709	SFX_Pipkey_03	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX_Clef_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\Tools\RND_pipKey\SFX_Pipkey_03		28352
 	891603908	SFX_Batterie_03	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX_Batterie_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\ToolsEvent\RND_Batterie\SFX_Batterie_03		129192
-	1034194567	SFX_Launch_01	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX_Launch_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Rnd_Launch_object\SFX_Launch_01		44000
+	926653889	SFX_explosion_os	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX_Explosion_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\event_onboard\bréche\SFX_explosion_os		121548
+	1034194567	SFX_Launch_01	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX_Launch_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\géneric action\Rnd_Launch_object\SFX_Launch_01		44000
+	1037971913	SFX_Faille_loop	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX_Faille_Loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\event_onboard\bréche\SFX_Faille_loop		563916
 

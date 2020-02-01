@@ -21,14 +21,20 @@
 			<ShortName>soundbank</ShortName>
 			<Path>soundbank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2668492475" Name="event_faille" ObjectPath="\Events\Default Work Unit\event_faille"/>
 				<Event Id="991799054" Name="Play_RND_Batterie_Trig" ObjectPath="\Events\Default Work Unit\Play_RND_Batterie_Trig"/>
 				<Event Id="1835716282" Name="Play_Rnd_Launch_object" ObjectPath="\Events\Default Work Unit\Play_Rnd_Launch_object"/>
 				<Event Id="2464809808" Name="Play_SFX_Grab" ObjectPath="\Events\Default Work Unit\Play_SFX_Grab"/>
 				<Event Id="166641916" Name="Play_SFX_Processeur_Trig" ObjectPath="\Events\Default Work Unit\Play_SFX_Processeur_Trig"/>
+				<Event Id="46816298" Name="Stop_SFX_faille_loop" ObjectPath="\Events\Default Work Unit\Stop_SFX_faille_loop"/>
 				<Event Id="4247771906" Name="Switch_Play_Tools" ObjectPath="\Events\Default Work Unit\Switch_Play_Tools"/>
 				<Event Id="3117655700" Name="Switch_Stop_Tools" ObjectPath="\Events\Default Work Unit\Switch_Stop_Tools"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="174739024" Language="SFX">
+					<ShortName>MetalHit IE03_69_01-01.wav</ShortName>
+					<Path>SFX\MetalHit IE03_69_01-01_D79FB2B7.wem</Path>
+				</File>
 				<File Id="179365573" Language="SFX">
 					<ShortName>SFX_grab.wav</ShortName>
 					<Path>SFX\SFX_grab_10C4C929.wem</Path>
@@ -48,10 +54,6 @@
 				<File Id="281076293" Language="SFX">
 					<ShortName>Fer à souder_01.wav</ShortName>
 					<Path>SFX\Fer à souder_01_10C4C929.wem</Path>
-				</File>
-				<File Id="376382103" Language="SFX">
-					<ShortName>SFX_Extincteur.wav</ShortName>
-					<Path>SFX\SFX_Extincteur_10C4C929.wem</Path>
 				</File>
 				<File Id="394909220" Language="SFX">
 					<ShortName>SFX_Launch_03.wav</ShortName>
@@ -85,9 +87,17 @@
 					<ShortName>SFX_Batterie_03.wav</ShortName>
 					<Path>SFX\SFX_Batterie_03_10C4C929.wem</Path>
 				</File>
+				<File Id="926653889" Language="SFX">
+					<ShortName>SFX_Explosion.wav</ShortName>
+					<Path>SFX\SFX_Explosion_10C4C929.wem</Path>
+				</File>
 				<File Id="1034194567" Language="SFX">
 					<ShortName>SFX_Launch_01.wav</ShortName>
 					<Path>SFX\SFX_Launch_01_10C4C929.wem</Path>
+				</File>
+				<File Id="1037971913" Language="SFX">
+					<ShortName>SFX_Faille_Loop.wav</ShortName>
+					<Path>SFX\SFX_Faille_Loop_D79FB2B7.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
