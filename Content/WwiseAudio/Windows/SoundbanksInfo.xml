@@ -21,12 +21,18 @@
 			<ShortName>soundbank</ShortName>
 			<Path>soundbank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2668492475" Name="event_faille" ObjectPath="\Events\Default Work Unit\event_faille"/>
 				<Event Id="3213331111" Name="Play_AMB_spaceship" ObjectPath="\Events\Default Work Unit\Play_AMB_spaceship"/>
+				<Event Id="2561670809" Name="Play_Music_timer_01" ObjectPath="\Events\Default Work Unit\Play_Music_timer_01"/>
 				<Event Id="991799054" Name="Play_RND_Batterie_Trig" ObjectPath="\Events\Default Work Unit\Play_RND_Batterie_Trig"/>
+				<Event Id="4091125625" Name="Play_Rnd_Fart_eggs" ObjectPath="\Events\Default Work Unit\Play_Rnd_Fart_eggs"/>
 				<Event Id="1835716282" Name="Play_Rnd_Launch_object" ObjectPath="\Events\Default Work Unit\Play_Rnd_Launch_object"/>
+				<Event Id="3908763747" Name="Play_SFX_Fire_loop" ObjectPath="\Events\Default Work Unit\Play_SFX_Fire_loop"/>
 				<Event Id="2464809808" Name="Play_SFX_Grab" ObjectPath="\Events\Default Work Unit\Play_SFX_Grab"/>
 				<Event Id="166641916" Name="Play_SFX_Processeur_Trig" ObjectPath="\Events\Default Work Unit\Play_SFX_Processeur_Trig"/>
 				<Event Id="1719668039" Name="Play_SFX_Radar_Trig" ObjectPath="\Events\Default Work Unit\Play_SFX_Radar_Trig"/>
+				<Event Id="46816298" Name="Stop_SFX_faille_loop" ObjectPath="\Events\Default Work Unit\Stop_SFX_faille_loop"/>
+				<Event Id="4165028173" Name="Stop_SFX_Fire_loop" ObjectPath="\Events\Default Work Unit\Stop_SFX_Fire_loop"/>
 				<Event Id="4247771906" Name="Switch_Play_Tools" ObjectPath="\Events\Default Work Unit\Switch_Play_Tools"/>
 				<Event Id="3117655700" Name="Switch_Stop_Tools" ObjectPath="\Events\Default Work Unit\Switch_Stop_Tools"/>
 			</IncludedEvents>
@@ -35,6 +41,10 @@
 					<ShortName>SFX_Radar.wav</ShortName>
 					<Path>SFX\SFX_Radar_D53E8938.wem</Path>
 				</File>
+				<File Id="167121790" Language="SFX">
+					<ShortName>BT HUMAN Fart Arm Pit-02.wav</ShortName>
+					<Path>SFX\BT HUMAN Fart Arm Pit-02_10C4C929.wem</Path>
+				</File>
 				<File Id="179365573" Language="SFX">
 					<ShortName>SFX_grab.wav</ShortName>
 					<Path>SFX\SFX_grab_10C4C929.wem</Path>
@@ -42,6 +52,10 @@
 				<File Id="195789531" Language="SFX">
 					<ShortName>SFX_Clef_02.wav</ShortName>
 					<Path>SFX\SFX_Clef_02_10C4C929.wem</Path>
+				</File>
+				<File Id="227603781" Language="SFX">
+					<ShortName>nape 1.wav</ShortName>
+					<Path>SFX\nape 1_D79FB2B7.wem</Path>
 				</File>
 				<File Id="230481105" Language="SFX">
 					<ShortName>SFX_Clef_01.wav</ShortName>
@@ -67,9 +81,21 @@
 					<ShortName>Fer à souder_02.wav</ShortName>
 					<Path>SFX\Fer à souder_02_10C4C929.wem</Path>
 				</File>
+				<File Id="431587854" Language="SFX">
+					<ShortName>BT HUMAN Fart Arm Pit-03.wav</ShortName>
+					<Path>SFX\BT HUMAN Fart Arm Pit-03_10C4C929.wem</Path>
+				</File>
+				<File Id="480003114" Language="SFX">
+					<ShortName>MACK Fire Burn Medium Blaze-03.wav</ShortName>
+					<Path>SFX\MACK Fire Burn Medium Blaze-03_D79FB2B7.wem</Path>
+				</File>
 				<File Id="569167608" Language="SFX">
 					<ShortName>SF-DS Ambience Spaceship Rumble 02-01.L.wav</ShortName>
 					<Path>SFX\SF-DS Ambience Spaceship Rumble 02-01.L_D79FB2B7.wem</Path>
+				</File>
+				<File Id="596681646" Language="SFX">
+					<ShortName>nape 2.wav</ShortName>
+					<Path>SFX\nape 2_D79FB2B7.wem</Path>
 				</File>
 				<File Id="609514943" Language="SFX">
 					<ShortName>SFX_Processeur.wav</ShortName>
@@ -87,17 +113,37 @@
 					<ShortName>SFX_Launch_04.wav</ShortName>
 					<Path>SFX\SFX_Launch_04_10C4C929.wem</Path>
 				</File>
+				<File Id="834958825" Language="SFX">
+					<ShortName>BT HUMAN Fart Arm Pit-01.wav</ShortName>
+					<Path>SFX\BT HUMAN Fart Arm Pit-01_10C4C929.wem</Path>
+				</File>
 				<File Id="853975709" Language="SFX">
 					<ShortName>SFX_Clef_03.wav</ShortName>
 					<Path>SFX\SFX_Clef_03_10C4C929.wem</Path>
+				</File>
+				<File Id="881588339" Language="SFX">
+					<ShortName>nape 3.wav</ShortName>
+					<Path>SFX\nape 3_D79FB2B7.wem</Path>
 				</File>
 				<File Id="891603908" Language="SFX">
 					<ShortName>SFX_Batterie_03.wav</ShortName>
 					<Path>SFX\SFX_Batterie_03_10C4C929.wem</Path>
 				</File>
+				<File Id="926653889" Language="SFX">
+					<ShortName>SFX_Explosion.wav</ShortName>
+					<Path>SFX\SFX_Explosion_10C4C929.wem</Path>
+				</File>
+				<File Id="936530825" Language="SFX">
+					<ShortName>kick.wav</ShortName>
+					<Path>SFX\kick_D79FB2B7.wem</Path>
+				</File>
 				<File Id="1034194567" Language="SFX">
 					<ShortName>SFX_Launch_01.wav</ShortName>
 					<Path>SFX\SFX_Launch_01_10C4C929.wem</Path>
+				</File>
+				<File Id="1037971913" Language="SFX">
+					<ShortName>SFX_Faille_Loop.wav</ShortName>
+					<Path>SFX\SFX_Faille_Loop_D79FB2B7.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
