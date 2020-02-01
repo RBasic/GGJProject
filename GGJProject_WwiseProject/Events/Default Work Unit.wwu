@@ -83,6 +83,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Rnd_Launch_object" ID="{6C76C30F-C4BB-471D-B8C2-B13DD308F7C5}">
+					<ChildrenList>
+						<Action Name="" ID="{313099EF-D551-416D-81AC-917ED52C8A93}" ShortID="136603889">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rnd_Launch_object" ID="{DC90B781-0829-4F59-BEB7-2FFEEBC63114}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
