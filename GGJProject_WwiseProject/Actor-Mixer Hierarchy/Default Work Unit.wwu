@@ -20,6 +20,7 @@
 							<ChildrenList>
 								<Sound Name="SFX_extinguisher" ID="{0F871D61-8737-403C-81D1-FACB198C1F05}" ShortID="146339302">
 									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -43,13 +44,13 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="SFX_Extincteur" ID="{D432FB2D-0E10-4BD4-B16F-49C0DA1F3115}" ShortID="376382103">
+										<AudioFileSource Name="MetalHit IE03_69_01-01" ID="{60EE22E1-C2FF-4092-8790-AFFB512FEACB}" ShortID="174739024">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Extincteur.wav</AudioFile>
+											<AudioFile>MetalHit IE03_69_01-01.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="SFX_Extincteur" ID="{D432FB2D-0E10-4BD4-B16F-49C0DA1F3115}" Platform="Linked"/>
+										<ActiveSource Name="MetalHit IE03_69_01-01" ID="{60EE22E1-C2FF-4092-8790-AFFB512FEACB}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<RandomSequenceContainer Name="RND_Soldering" ID="{4E8E2362-200C-47DD-9661-D9DD9157BF56}" ShortID="331473579">
@@ -138,7 +139,18 @@
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
-										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{3DBA12BD-C187-41FD-9594-9BBE2E251AAE}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 									</PropertyList>
 									<ReferenceList>
@@ -814,7 +826,7 @@
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-9</Value>
+												<Value>-20</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -836,6 +848,32 @@
 										<ActiveSource Name="MACK Fire Burn Medium Blaze-03" ID="{B4DA9B51-9F83-4D99-BAAB-BED5911E5AA5}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="SFX_endFire" ID="{3949ADC8-4F90-46D9-A46D-FA80D3AF6BE5}" ShortID="336466793">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{93923C9A-6042-42B4-B851-437635C9CB50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56488E5C-5ABB-430F-BF88-69602EBD2065}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MetalHit IE03_69_03" ID="{B1489713-A586-481B-BCA4-96A80E2260E5}" ShortID="766335794">
+											<Language>SFX</Language>
+											<AudioFile>MetalHit IE03_69_03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MetalHit IE03_69_03" ID="{B1489713-A586-481B-BCA4-96A80E2260E5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
@@ -844,6 +882,17 @@
 					<ChildrenList>
 						<Sound Name="Start" ID="{261E6CDD-76A6-414D-AF80-92DED9A1ADA7}" ShortID="476344892">
 							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-5</Value>
@@ -896,6 +945,11 @@
 						</Sound>
 						<RandomSequenceContainer Name="RND_pipKey_MenuOverley" ID="{5E26FCBD-BCBE-4771-A3EB-1687C5E2920D}" ShortID="1023595007">
 							<PropertyList>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -913,6 +967,11 @@
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
 								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1498,7 +1557,7 @@
 																	</Point>
 																	<Point>
 																		<XPos>0.50262</XPos>
-																		<YPos>-0</YPos>
+																		<YPos>0</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
