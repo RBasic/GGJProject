@@ -1716,6 +1716,324 @@
 										</BlendTrack>
 									</BlendTrackList>
 								</BlendContainer>
+								<BlendContainer Name="Music03" ID="{E5EA5F0E-AD1C-4F32-8DFA-059A18F8F243}" ShortID="158120539">
+									<PropertyList>
+										<Property Name="BlendBehavior" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{93923C9A-6042-42B4-B851-437635C9CB50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Filtre" ID="{D904929A-6F0A-4461-8687-075F1CCEEFD1}" WorkUnitID="{56488E5C-5ABB-430F-BF88-69602EBD2065}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="bass" ID="{D6BCE9B5-3989-4839-99F3-2C68D0F14527}" ShortID="237381728">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{93923C9A-6042-42B4-B851-437635C9CB50}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56488E5C-5ABB-430F-BF88-69602EBD2065}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="bass" ID="{CE47DC32-E284-418F-A130-64FAA6AFFD3B}" ShortID="766672088">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="7.99828767123288"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>bass.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="bass" ID="{CE47DC32-E284-418F-A130-64FAA6AFFD3B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="bass2" ID="{2AAFCB39-C068-4F81-8AAD-5E6C7CAF8162}" ShortID="17335812">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{93923C9A-6042-42B4-B851-437635C9CB50}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56488E5C-5ABB-430F-BF88-69602EBD2065}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="bass2" ID="{4FA63B43-8A88-4A3A-9EAE-C68D94277A73}" ShortID="58055356">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="8.01369863013701"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>bass2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="bass2" ID="{4FA63B43-8A88-4A3A-9EAE-C68D94277A73}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="guitare" ID="{32F328B5-F18D-4808-AAE3-3E3F5A3E7CE5}" ShortID="251609170">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{93923C9A-6042-42B4-B851-437635C9CB50}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56488E5C-5ABB-430F-BF88-69602EBD2065}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="guit" ID="{01F6AB18-9082-4448-B7A1-D3EB6F2BB777}" ShortID="391901647">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="8.013698630137"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>guit.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="guit" ID="{01F6AB18-9082-4448-B7A1-D3EB6F2BB777}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="pad1" ID="{B7946FBA-FB1C-4CEF-943D-1CC8AE8916A7}" ShortID="519404978">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{93923C9A-6042-42B4-B851-437635C9CB50}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56488E5C-5ABB-430F-BF88-69602EBD2065}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="pad1" ID="{22DDD05D-63A1-4181-92F0-AE6F56677509}" ShortID="872101684">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="8.02910958904112"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>pad1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="pad1" ID="{22DDD05D-63A1-4181-92F0-AE6F56677509}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<BlendTrackList>
+										<BlendTrack Name="bass" ID="{FCF7B019-D91A-42D3-80B7-5F3C74F0D4D6}" ShortID="111628543">
+											<PropertyList>
+												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{E6977128-0E73-4A29-8CEF-3372BFAECB25}" ShortID="486316243">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Time" ID="{9422A628-FD4E-470B-9CF6-0D3F02296DFC}" WorkUnitID="{06FB20AB-4271-42E5-9959-A14233717056}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{C040863A-AC57-46D1-B8AD-085339C0C399}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.29874</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>0.401832460732984</XPos>
+																		<YPos>0.28289202286818</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="LayerCrossFadeControlInput">
+													<ObjectRef Name="Time" ID="{9422A628-FD4E-470B-9CF6-0D3F02296DFC}" WorkUnitID="{06FB20AB-4271-42E5-9959-A14233717056}"/>
+												</Reference>
+											</ReferenceList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="bass" ID="{D6BCE9B5-3989-4839-99F3-2C68D0F14527}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>1</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+										<BlendTrack Name="bass2" ID="{2AB41F2C-30AB-465A-B26B-8C7304764B87}" ShortID="63741780">
+											<PropertyList>
+												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{5A65C03D-7E50-4F0D-95A2-CC129CE961D0}" ShortID="851541501">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Time" ID="{9422A628-FD4E-470B-9CF6-0D3F02296DFC}" WorkUnitID="{06FB20AB-4271-42E5-9959-A14233717056}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{F7CFAEB1-BEFE-43C0-AD99-C75C01DB04A3}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.49764</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>0.58181</XPos>
+																		<YPos>-3.68347</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>-3</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="LayerCrossFadeControlInput">
+													<ObjectRef Name="Time" ID="{9422A628-FD4E-470B-9CF6-0D3F02296DFC}" WorkUnitID="{06FB20AB-4271-42E5-9959-A14233717056}"/>
+												</Reference>
+											</ReferenceList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="bass2" ID="{2AAFCB39-C068-4F81-8AAD-5E6C7CAF8162}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>1</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+										<BlendTrack Name="guitare" ID="{67481808-DF84-4B0C-9234-D62D3B6CE448}" ShortID="187847654">
+											<PropertyList>
+												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="LayerCrossFadeControlInput">
+													<ObjectRef Name="Time" ID="{9422A628-FD4E-470B-9CF6-0D3F02296DFC}" WorkUnitID="{06FB20AB-4271-42E5-9959-A14233717056}"/>
+												</Reference>
+											</ReferenceList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="guitare" ID="{32F328B5-F18D-4808-AAE3-3E3F5A3E7CE5}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>1</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+										<BlendTrack Name="pad" ID="{6A52FEFC-F229-4C2C-889E-E12D3834C41A}" ShortID="1046620694">
+											<PropertyList>
+												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{A03BB551-2B37-41B9-BA9F-6AF6629EB54E}" ShortID="177075440">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Time" ID="{9422A628-FD4E-470B-9CF6-0D3F02296DFC}" WorkUnitID="{06FB20AB-4271-42E5-9959-A14233717056}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{DF3FEB96-0C3F-47F1-9C22-F3635FA3E9FB}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.001</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="LayerCrossFadeControlInput">
+													<ObjectRef Name="Time" ID="{9422A628-FD4E-470B-9CF6-0D3F02296DFC}" WorkUnitID="{06FB20AB-4271-42E5-9959-A14233717056}"/>
+												</Reference>
+											</ReferenceList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="pad1" ID="{B7946FBA-FB1C-4CEF-943D-1CC8AE8916A7}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>1</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+									</BlendTrackList>
+								</BlendContainer>
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<Sound Name="Music Menu" ID="{6591B57E-43E1-46F7-848D-0B66E99A31D8}" ShortID="233467545">
