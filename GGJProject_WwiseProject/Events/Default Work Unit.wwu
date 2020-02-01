@@ -1,6 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" SchemaVersion="94">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_SFX_Grab" ID="{95D084DB-D302-4668-B66B-DDAFF89D3AC6}">
+					<ChildrenList>
+						<Action Name="" ID="{5D636237-FA7B-4B88-91A1-691E8618DF28}" ShortID="851366938">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Grab" ID="{7FAC3BB2-B367-41FA-B11A-9559ED9E861D}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Switch_Play_Tools" ID="{0DF57556-B39C-4BBF-944E-F1B4FE760E46}">
+					<ChildrenList>
+						<Action Name="" ID="{1FF684B3-4203-47A3-8F88-ED50CDA65F7A}" ShortID="675639861">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tools" ID="{8AE2E99B-FCA0-46B5-B75D-CF361DF4FC61}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Switch_Stop_Tools" ID="{1E7D784E-FACD-4C9D-ADA5-222E15E7AC17}">
+					<ChildrenList>
+						<Action Name="" ID="{7ED25004-4F40-460B-9A40-285AB62CEA1E}" ShortID="785723916">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tools" ID="{8AE2E99B-FCA0-46B5-B75D-CF361DF4FC61}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AMB_spaceship" ID="{35B770A1-2918-4186-803C-6AB4773E277D}">
+					<ChildrenList>
+						<Action Name="" ID="{ECF962C5-7710-48DF-A249-9BB46070920B}" ShortID="991531083">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_spaceship" ID="{4FF1F99A-FAC3-497E-8E87-56016CF49951}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_RND_Batterie_Trig" ID="{C96CCAA3-DE84-44BB-84F4-C939045A3D57}">
+					<ChildrenList>
+						<Action Name="" ID="{60DAD11E-2CB3-4A73-92A5-2A91C53144E2}" ShortID="703320207">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RND_Batterie" ID="{59C04629-3423-44D7-A053-C905CD552B18}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Processeur_Trig" ID="{0066240E-159E-459D-8498-B883B18416C2}">
+					<ChildrenList>
+						<Action Name="" ID="{EDFFE0E0-195A-4F4A-A2D2-A844658ADF8E}" ShortID="25984897">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Processeur" ID="{D7915542-87C6-43D9-9069-0EB46BE75F87}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Radar_Trig" ID="{03B25CA1-7073-4BF8-AE6D-0582D9D39FDC}">
+					<ChildrenList>
+						<Action Name="" ID="{6CAB88AD-F8BF-498B-8C80-EB14CD9E0CA8}" ShortID="982296427">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Radar" ID="{59C61E03-2869-41D3-8DD8-9A4EF60A1D13}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
