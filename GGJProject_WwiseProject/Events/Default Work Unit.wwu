@@ -50,39 +50,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_RND_Batterie_Trig" ID="{C96CCAA3-DE84-44BB-84F4-C939045A3D57}">
-					<ChildrenList>
-						<Action Name="" ID="{60DAD11E-2CB3-4A73-92A5-2A91C53144E2}" ShortID="703320207">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="RND_Batterie" ID="{59C04629-3423-44D7-A053-C905CD552B18}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_SFX_Processeur_Trig" ID="{0066240E-159E-459D-8498-B883B18416C2}">
-					<ChildrenList>
-						<Action Name="" ID="{EDFFE0E0-195A-4F4A-A2D2-A844658ADF8E}" ShortID="25984897">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SFX_Processeur" ID="{D7915542-87C6-43D9-9069-0EB46BE75F87}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_SFX_Radar_Trig" ID="{03B25CA1-7073-4BF8-AE6D-0582D9D39FDC}">
-					<ChildrenList>
-						<Action Name="" ID="{6CAB88AD-F8BF-498B-8C80-EB14CD9E0CA8}" ShortID="982296427">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SFX_Radar" ID="{59C61E03-2869-41D3-8DD8-9A4EF60A1D13}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Rnd_Launch_object" ID="{6C76C30F-C4BB-471D-B8C2-B13DD308F7C5}">
 					<ChildrenList>
 						<Action Name="" ID="{313099EF-D551-416D-81AC-917ED52C8A93}" ShortID="136603889">
@@ -194,12 +161,12 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Start" ID="{F5C35A50-AC76-4C56-9A06-A006A1CF24E4}">
+				<Event Name="Play_StartGame" ID="{F5C35A50-AC76-4C56-9A06-A006A1CF24E4}">
 					<ChildrenList>
 						<Action Name="" ID="{7B8C691A-7CF3-4ED8-A794-85D3DBFD218E}" ShortID="727845509">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Start" ID="{261E6CDD-76A6-414D-AF80-92DED9A1ADA7}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+									<ObjectRef Name="StartGame" ID="{261E6CDD-76A6-414D-AF80-92DED9A1ADA7}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -216,7 +183,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_SFX_speedEffect_02" ID="{FBEC3C32-83E1-4BF9-9B1B-70706E9B50DE}">
+				<Event Name="Play_SFX_speedEffect_cornichon" ID="{FBEC3C32-83E1-4BF9-9B1B-70706E9B50DE}">
 					<ChildrenList>
 						<Action Name="" ID="{1FAC33EA-60FA-4177-9482-754CE8478DE6}" ShortID="24263131">
 							<ReferenceList>
@@ -247,6 +214,39 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="SFX_endFire" ID="{3949ADC8-4F90-46D9-A46D-FA80D3AF6BE5}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ToolsEvent" ID="{4504D6DF-79B6-4096-A45F-A3F37D733074}">
+					<ChildrenList>
+						<Action Name="" ID="{EE62223F-5C0A-46C4-918F-2ABDF262367E}" ShortID="398455009">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ToolsEvent" ID="{85DE64BB-920E-4176-B49B-083818B83735}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_teleportAlien" ID="{19103856-0A38-463B-A5B1-B5726EA5447A}">
+					<ChildrenList>
+						<Action Name="" ID="{2CCBB839-1B63-4B5D-9318-FBED64F9DDA2}" ShortID="129227182">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="teleportAlien" ID="{B3A8FAF0-9C00-492D-ADC9-680DB422E3ED}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_start_menu" ID="{B36E7CE3-ED29-445E-B7EC-A305054499D2}">
+					<ChildrenList>
+						<Action Name="" ID="{B8AFA4F6-FFAF-469B-B3DE-EEC70DCE4159}" ShortID="125936375">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="start menu" ID="{8A1FF48D-B038-443B-9187-ADFDC7DC4D5B}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

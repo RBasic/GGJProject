@@ -14,6 +14,18 @@
 						</SwitchGroup>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="ToolsEvent" ID="{0A89AEE1-6BBF-4562-8039-FD5ED5F45A2E}" ShortID="885862485">
+					<ChildrenList>
+						<SwitchGroup Name="ToolsEvent" ID="{9A257EA7-17A9-4208-93B0-6EF524F27A97}">
+							<ChildrenList>
+								<Switch Name="Bouteille" ID="{3C2579A9-24E1-4AB1-867E-86EAE216E337}"/>
+								<Switch Name="Radar" ID="{84874361-7C84-40AD-9C0F-CA87FBCF6AD9}"/>
+								<Switch Name="Processeur" ID="{6E37A7E5-651D-4A6D-B9A4-7A86822FA865}"/>
+								<Switch Name="Batterie" ID="{DF4ED4C4-6F4B-4EA6-8EF5-70C1CC3C5C37}"/>
+							</ChildrenList>
+						</SwitchGroup>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>
