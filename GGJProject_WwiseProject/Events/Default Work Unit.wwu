@@ -270,6 +270,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Open_Door_SFX" ID="{5F5C8A0D-22F1-479D-B412-B1938EF8CF3A}">
+					<ChildrenList>
+						<Action Name="" ID="{0DF6AAE6-00C9-451E-A1FB-0DCE9D57BC03}" ShortID="192898003">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Open_Door_SFX" ID="{C226051B-E060-4B71-AE58-19DFE99A43CA}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Close_Door_SFX" ID="{37DFD130-9970-40B9-8C5F-7FCF4C1C0F13}">
+					<ChildrenList>
+						<Action Name="" ID="{D932D6E5-4399-4FCD-B10A-F13A80FB8CC4}" ShortID="224200867">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Close_Door_SFX" ID="{D9D5513F-2840-412B-811A-D5A5D407C974}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -6,6 +6,7 @@
 				<SoundBank Name="soundbank" ID="{79D1F125-BCAE-4051-9082-42CCA1500CB9}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_ToolsEvent" ID="{4504D6DF-79B6-4096-A45F-A3F37D733074}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Close_Door_SFX" ID="{37DFD130-9970-40B9-8C5F-7FCF4C1C0F13}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_SFX_Fire_loop" ID="{3371AA0F-74A3-40CA-BF4B-42B37CF040D9}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_AMB_spaceship" ID="{35B770A1-2918-4186-803C-6AB4773E277D}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_teleportAlien" ID="{C696CB82-87AE-4344-BF3D-37E06EBF48B8}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
@@ -18,6 +19,7 @@
 						<ObjectRef Name="Play_Rnd_Fart_eggs" ID="{71602D75-E5C3-465E-8546-101EBE3C4304}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_SFX_Grab" ID="{95D084DB-D302-4668-B66B-DDAFF89D3AC6}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Rnd_Launch_object" ID="{6C76C30F-C4BB-471D-B8C2-B13DD308F7C5}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Open_Door_SFX" ID="{5F5C8A0D-22F1-479D-B412-B1938EF8CF3A}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Music_Switch" ID="{21FFA319-A6A4-4820-BF8B-913845388A60}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Switch_Play_Tools" ID="{0DF57556-B39C-4BBF-944E-F1B4FE760E46}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_SFX_speedEffect_cornichon" ID="{FBEC3C32-83E1-4BF9-9B1B-70706E9B50DE}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
