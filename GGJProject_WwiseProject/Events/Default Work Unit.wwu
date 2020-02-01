@@ -163,6 +163,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Music_timer_01" ID="{DB79BB94-1DE3-4E87-8A65-FEA52AE29F7A}">
+					<ChildrenList>
+						<Action Name="" ID="{A93B5949-E503-4BF2-8089-3B6D2461D26C}" ShortID="684879906">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_timer_01" ID="{5FA14660-BD66-4913-9358-E23CAED4CCDE}" WorkUnitID="{BB4E3DED-AD5C-4548-AA0B-80E02C0C1DD0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Rnd_Fart_eggs" ID="{71602D75-E5C3-465E-8546-101EBE3C4304}">
+					<ChildrenList>
+						<Action Name="" ID="{C1057DD4-5765-45DF-A5AC-5E68248640C0}" ShortID="962814360">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rnd_Fart_eggs" ID="{9A810341-29CA-4E96-AE70-6291E46524FC}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
