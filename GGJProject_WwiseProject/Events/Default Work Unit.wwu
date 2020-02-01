@@ -252,6 +252,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_teleportAlien" ID="{C696CB82-87AE-4344-BF3D-37E06EBF48B8}">
+					<ChildrenList>
+						<Action Name="" ID="{856021AE-C844-4F4E-B2FD-3FA5E7114458}" ShortID="926098801">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="teleportAlien" ID="{B3A8FAF0-9C00-492D-ADC9-680DB422E3ED}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
