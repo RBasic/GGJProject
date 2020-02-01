@@ -5,8 +5,10 @@
 			<ChildrenList>
 				<SoundBank Name="soundbank" ID="{79D1F125-BCAE-4051-9082-42CCA1500CB9}">
 					<ObjectInclusionList>
+						<ObjectRef Name="event_faille" ID="{A7B0EA7A-3780-447C-A0BF-D91F49F4AA96}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_RND_Batterie_Trig" ID="{C96CCAA3-DE84-44BB-84F4-C939045A3D57}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_SFX_Processeur_Trig" ID="{0066240E-159E-459D-8498-B883B18416C2}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_SFX_faille_loop" ID="{6841ADCA-CD8E-4650-9233-130CF3A38595}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_SFX_Grab" ID="{95D084DB-D302-4668-B66B-DDAFF89D3AC6}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Rnd_Launch_object" ID="{6C76C30F-C4BB-471D-B8C2-B13DD308F7C5}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Switch_Play_Tools" ID="{0DF57556-B39C-4BBF-944E-F1B4FE760E46}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
