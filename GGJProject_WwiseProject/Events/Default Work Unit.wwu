@@ -122,6 +122,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{8CB8A4FF-D5D7-4A87-A2C1-383EC8ED8BB7}" ShortID="1001563140">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="filtre" ID="{281F8C8A-EE55-49A6-A50B-06ED13CAD16A}" WorkUnitID="{3763CE9F-7A0E-4001-AB74-80BC4A62B460}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Stop_SFX_faille_loop" ID="{6841ADCA-CD8E-4650-9233-130CF3A38595}">
@@ -133,6 +143,16 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="SFX_Faille_loop" ID="{6AFE1D1F-B6C7-41FC-B0F7-EAB61DE9C710}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A6991D38-4914-40A5-934B-854589C74A24}" ShortID="727587206">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="normal" ID="{5515B1CB-4CCA-4E6F-9BB1-4258094C58EF}" WorkUnitID="{3763CE9F-7A0E-4001-AB74-80BC4A62B460}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -163,23 +183,56 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Music_timer_01" ID="{DB79BB94-1DE3-4E87-8A65-FEA52AE29F7A}">
-					<ChildrenList>
-						<Action Name="" ID="{A93B5949-E503-4BF2-8089-3B6D2461D26C}" ShortID="684879906">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Music_timer_01" ID="{5FA14660-BD66-4913-9358-E23CAED4CCDE}" WorkUnitID="{BB4E3DED-AD5C-4548-AA0B-80E02C0C1DD0}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Rnd_Fart_eggs" ID="{71602D75-E5C3-465E-8546-101EBE3C4304}">
 					<ChildrenList>
 						<Action Name="" ID="{C1057DD4-5765-45DF-A5AC-5E68248640C0}" ShortID="962814360">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Rnd_Fart_eggs" ID="{9A810341-29CA-4E96-AE70-6291E46524FC}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Start" ID="{F5C35A50-AC76-4C56-9A06-A006A1CF24E4}">
+					<ChildrenList>
+						<Action Name="" ID="{7B8C691A-7CF3-4ED8-A794-85D3DBFD218E}" ShortID="727845509">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Start" ID="{261E6CDD-76A6-414D-AF80-92DED9A1ADA7}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_RND_pipKey_Menu" ID="{8BEBECFE-7DF1-4CBF-9AB0-54CFB01798C7}">
+					<ChildrenList>
+						<Action Name="" ID="{D038D915-EDEE-4120-971D-DD1E29C1DF41}" ShortID="942108035">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RND_pipKey_MenuOverley" ID="{5E26FCBD-BCBE-4771-A3EB-1687C5E2920D}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_speedEffect_02" ID="{FBEC3C32-83E1-4BF9-9B1B-70706E9B50DE}">
+					<ChildrenList>
+						<Action Name="" ID="{1FAC33EA-60FA-4177-9482-754CE8478DE6}" ShortID="24263131">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_speedEffect_02" ID="{EFEC4CAE-C589-494A-BC8E-6F0B276E3768}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Music_Switch" ID="{21FFA319-A6A4-4820-BF8B-913845388A60}">
+					<ChildrenList>
+						<Action Name="" ID="{39D9F23A-573A-4D70-94AD-09073D587A1A}" ShortID="271112601">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{9DB268A5-383E-4318-8E59-220B5F5EE92C}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
