@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>D:\GGJProject\GGJProject_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\GGJProject\GGJProject_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\GGJProject\GGJProject_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\GGJProject\GGJProject_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1661994096" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\soundbank</ObjectPath>
+			<ShortName>soundbank</ShortName>
+			<Path>soundbank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="991799054" Name="Play_RND_Batterie_Trig" ObjectPath="\Events\Default Work Unit\Play_RND_Batterie_Trig"/>
+				<Event Id="2464809808" Name="Play_SFX_Grab" ObjectPath="\Events\Default Work Unit\Play_SFX_Grab"/>
+				<Event Id="166641916" Name="Play_SFX_Processeur_Trig" ObjectPath="\Events\Default Work Unit\Play_SFX_Processeur_Trig"/>
+				<Event Id="4247771906" Name="Switch_Play_Tools" ObjectPath="\Events\Default Work Unit\Switch_Play_Tools"/>
+				<Event Id="3117655700" Name="Switch_Stop_Tools" ObjectPath="\Events\Default Work Unit\Switch_Stop_Tools"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="179365573" Language="SFX">
+					<ShortName>SFX_grab.wav</ShortName>
+					<Path>SFX\SFX_grab_10C4C929.wem</Path>
+				</File>
+				<File Id="195789531" Language="SFX">
+					<ShortName>SFX_Clef_02.wav</ShortName>
+					<Path>SFX\SFX_Clef_02_10C4C929.wem</Path>
+				</File>
+				<File Id="230481105" Language="SFX">
+					<ShortName>SFX_Clef_01.wav</ShortName>
+					<Path>SFX\SFX_Clef_01_10C4C929.wem</Path>
+				</File>
+				<File Id="274256067" Language="SFX">
+					<ShortName>SFX_batterie_02.wav</ShortName>
+					<Path>SFX\SFX_batterie_02_10C4C929.wem</Path>
+				</File>
+				<File Id="281076293" Language="SFX">
+					<ShortName>Fer à souder_01.wav</ShortName>
+					<Path>SFX\Fer à souder_01_10C4C929.wem</Path>
+				</File>
+				<File Id="376382103" Language="SFX">
+					<ShortName>SFX_Extincteur.wav</ShortName>
+					<Path>SFX\SFX_Extincteur_10C4C929.wem</Path>
+				</File>
+				<File Id="415784461" Language="SFX">
+					<ShortName>Fer à souder_02.wav</ShortName>
+					<Path>SFX\Fer à souder_02_10C4C929.wem</Path>
+				</File>
+				<File Id="609514943" Language="SFX">
+					<ShortName>SFX_Processeur.wav</ShortName>
+					<Path>SFX\SFX_Processeur_10C4C929.wem</Path>
+				</File>
+				<File Id="777022417" Language="SFX">
+					<ShortName>SFX_Batterie_01.wav</ShortName>
+					<Path>SFX\SFX_Batterie_01_10C4C929.wem</Path>
+				</File>
+				<File Id="853975709" Language="SFX">
+					<ShortName>SFX_Clef_03.wav</ShortName>
+					<Path>SFX\SFX_Clef_03_10C4C929.wem</Path>
+				</File>
+				<File Id="891603908" Language="SFX">
+					<ShortName>SFX_Batterie_03.wav</ShortName>
+					<Path>SFX\SFX_Batterie_03_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

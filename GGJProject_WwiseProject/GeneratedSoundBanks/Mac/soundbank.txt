@@ -1,0 +1,28 @@
+Event	ID	Name			Wwise Object Path	Notes
+	166641916	Play_SFX_Processeur_Trig			\Default Work Unit\Play_SFX_Processeur_Trig	
+	991799054	Play_RND_Batterie_Trig			\Default Work Unit\Play_RND_Batterie_Trig	
+	2464809808	Play_SFX_Grab			\Default Work Unit\Play_SFX_Grab	
+	3117655700	Switch_Stop_Tools			\Default Work Unit\Switch_Stop_Tools	
+	4247771906	Switch_Play_Tools			\Default Work Unit\Switch_Play_Tools	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1353321450	Tools			\Default Work Unit\Tools\Tools	
+
+Switch	ID	Name	Switch Group			Notes
+	2426358648	pip_key	Tools			
+	2495567647	soldering_iron	Tools			
+	2517871800	extinguisher	Tools			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	179365573	SFX_Grab	D:\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX_grab_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\SFX_Grab		53568
+	195789531	SFX_Pipkey_02	D:\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX_Clef_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\Tools\RND_pipKey\SFX_Pipkey_02		32064
+	230481105	SFX_PipKey_01	D:\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX_Clef_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\Tools\RND_pipKey\SFX_PipKey_01		43760
+	274256067	SFX_batterie_02	D:\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX_batterie_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\ToolsEvent\RND_Batterie\SFX_batterie_02		160788
+	281076293	SFX_soldering_01	D:\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\Fer à souder_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\Tools\RND_Soldering\SFX_soldering_01		323648
+	376382103	SFX_extinguisher	D:\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX_Extincteur_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\Tools\SFX_extinguisher		835648
+	415784461	SFX_soldering_02	D:\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\Fer à souder_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\Tools\RND_Soldering\SFX_soldering_02		439872
+	609514943	SFX_Processeur	D:\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX_Processeur_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\ToolsEvent\SFX_Processeur		1024064
+	777022417	SFX_Batterie_01	D:\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX_Batterie_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\ToolsEvent\RND_Batterie\SFX_Batterie_01		152640
+	853975709	SFX_Pipkey_03	D:\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX_Clef_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\Tools\RND_pipKey\SFX_Pipkey_03		28352
+	891603908	SFX_Batterie_03	D:\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX_Batterie_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\ToolsEvent\RND_Batterie\SFX_Batterie_03		129192
+
