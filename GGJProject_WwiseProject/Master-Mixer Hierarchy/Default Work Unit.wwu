@@ -40,29 +40,21 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Bus Name="Filtre" ID="{D904929A-6F0A-4461-8687-075F1CCEEFD1}">
-							<StateInfo>
-								<StateGroupList>
-									<StateGroupInfo>
-										<StateGroupRef Name="Statefaille" ID="{B7D0CD85-8F75-4D88-BFE5-E72920828AB5}"/>
-									</StateGroupInfo>
-								</StateGroupList>
-								<CustomStateList>
-									<CustomState>
-										<StateRef Name="filtre" ID="{281F8C8A-EE55-49A6-A50B-06ED13CAD16A}"/>
-										<CustomState Name="" ID="{0C23C590-1F99-40FA-AC3C-FC93224B7156}" ShortID="1037540422">
-											<PropertyList>
-												<Property Name="Highpass" Type="int16" Value="56"/>
-												<Property Name="Lowpass" Type="int16" Value="-73"/>
-											</PropertyList>
-										</CustomState>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="normal" ID="{5515B1CB-4CCA-4E6F-9BB1-4258094C58EF}"/>
-										<CustomState Name="" ID="{C4037C48-D477-45BB-9BE9-FE35D197C7F9}" ShortID="563336123"/>
-									</CustomState>
-								</CustomStateList>
-							</StateInfo>
+						<Bus Name="Filtre" ID="{D904929A-6F0A-4461-8687-075F1CCEEFD1}"/>
+						<Bus Name="Attenuation" ID="{16551CEE-B3BA-49CA-8788-13CD0C899201}">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Distance" ID="{776BFE4B-B09C-46A8-9530-3092D72FBA45}" WorkUnitID="{231C4243-2C40-466D-83BB-FE2DC45C69BF}"/>
+								</Reference>
+							</ReferenceList>
+							<PositioningInfo>
+								<Position Name="" ID="{143D5B2D-D9BF-42B1-A686-18522DA61E13}"/>
+							</PositioningInfo>
 						</Bus>
 					</ChildrenList>
 				</Bus>
