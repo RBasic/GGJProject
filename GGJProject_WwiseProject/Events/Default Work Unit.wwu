@@ -91,16 +91,6 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{8CB8A4FF-D5D7-4A87-A2C1-383EC8ED8BB7}" ShortID="1001563140">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="filtre" ID="{281F8C8A-EE55-49A6-A50B-06ED13CAD16A}" WorkUnitID="{3763CE9F-7A0E-4001-AB74-80BC4A62B460}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Stop_SFX_faille_loop" ID="{6841ADCA-CD8E-4650-9233-130CF3A38595}">
@@ -115,35 +105,11 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{A6991D38-4914-40A5-934B-854589C74A24}" ShortID="727587206">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="normal" ID="{5515B1CB-4CCA-4E6F-9BB1-4258094C58EF}" WorkUnitID="{3763CE9F-7A0E-4001-AB74-80BC4A62B460}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_SFX_Fire_loop" ID="{70650F19-920A-4471-8803-A2954BC940CF}">
 					<ChildrenList>
 						<Action Name="" ID="{67B1DABE-F70C-4B0C-8982-FDA567D4637D}" ShortID="355433836">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SFX_Fire_loop" ID="{99283FCC-9190-491A-A149-AB1538B20DE2}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Stop_SFX_Fire_loop" ID="{3371AA0F-74A3-40CA-BF4B-42B37CF040D9}">
-					<ChildrenList>
-						<Action Name="" ID="{CBBBF586-AD53-440B-AAE9-0C95673D514E}" ShortID="455686211">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="SFX_Fire_loop" ID="{99283FCC-9190-491A-A149-AB1538B20DE2}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
@@ -210,12 +176,19 @@
 				<Event Name="Stop_SFX_endFire" ID="{C786D294-8F68-45A0-8BA5-6514F5BDFF2A}">
 					<ChildrenList>
 						<Action Name="" ID="{786E427C-5F99-4A1C-A5DB-FAB1BED3E9A4}" ShortID="538583245">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_endFire" ID="{3949ADC8-4F90-46D9-A46D-FA80D3AF6BE5}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1C79015E-1F68-4FC0-BA1A-DB2EAF71F0FA}" ShortID="554197133">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SFX_endFire" ID="{3949ADC8-4F90-46D9-A46D-FA80D3AF6BE5}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+									<ObjectRef Name="SFX_Fire_loop" ID="{99283FCC-9190-491A-A149-AB1538B20DE2}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
