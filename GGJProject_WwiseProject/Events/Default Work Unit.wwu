@@ -63,7 +63,36 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="event_faille" ID="{A7B0EA7A-3780-447C-A0BF-D91F49F4AA96}"/>
+				<Event Name="event_faille" ID="{A7B0EA7A-3780-447C-A0BF-D91F49F4AA96}">
+					<ChildrenList>
+						<Action Name="" ID="{B30204A7-32A8-4A04-A0FE-F8BCBF5AEEA1}" ShortID="54267222">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{2A21C408-751C-47F3-A97F-67A30E25C0A1}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_explosion_os" ID="{9D1CAB61-357A-447C-BB9F-AB2D5FF78646}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{878C18CA-E42E-4E8F-952F-1192A5E4B2EC}" ShortID="233380344">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Faille_loop" ID="{6AFE1D1F-B6C7-41FC-B0F7-EAB61DE9C710}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="Stop_SFX_faille_loop" ID="{6841ADCA-CD8E-4650-9233-130CF3A38595}">
 					<ChildrenList>
 						<Action Name="" ID="{439E5DB8-F7F9-4821-968E-56FE044F15BB}" ShortID="1042705911">
@@ -139,6 +168,27 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Music" ID="{9DB268A5-383E-4318-8E59-220B5F5EE92C}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_SFX_endFire" ID="{C786D294-8F68-45A0-8BA5-6514F5BDFF2A}">
+					<ChildrenList>
+						<Action Name="" ID="{786E427C-5F99-4A1C-A5DB-FAB1BED3E9A4}" ShortID="538583245">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_endFire" ID="{3949ADC8-4F90-46D9-A46D-FA80D3AF6BE5}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1C79015E-1F68-4FC0-BA1A-DB2EAF71F0FA}" ShortID="554197133">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Fire_loop" ID="{99283FCC-9190-491A-A149-AB1538B20DE2}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
