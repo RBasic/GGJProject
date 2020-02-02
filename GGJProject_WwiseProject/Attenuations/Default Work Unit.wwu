@@ -4,9 +4,6 @@
 		<WorkUnit Name="Default Work Unit" ID="{231C4243-2C40-466D-83BB-FE2DC45C69BF}" PersistMode="Standalone">
 			<ChildrenList>
 				<Attenuation Name="Distance" ID="{776BFE4B-B09C-46A8-9530-3092D72FBA45}" ShortID="224030113">
-					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="10000"/>
-					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -22,7 +19,7 @@
 											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>10000</XPos>
+											<XPos>100</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>

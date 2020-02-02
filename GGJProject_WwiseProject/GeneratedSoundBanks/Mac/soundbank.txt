@@ -18,7 +18,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	3706193614	Stop_teleportAlien			\Default Work Unit\Stop_teleportAlien	
 	3908763747	Play_SFX_Fire_loop			\Default Work Unit\Play_SFX_Fire_loop	
 	4091125625	Play_Rnd_Fart_eggs			\Default Work Unit\Play_Rnd_Fart_eggs	
-	4165028173	Stop_SFX_Fire_loop			\Default Work Unit\Stop_SFX_Fire_loop	
 	4247771906	Switch_Play_Tools			\Default Work Unit\Switch_Play_Tools	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
@@ -76,6 +75,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	630576359	Bouteille	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX_C02_OS_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\ToolsEvent\ToolsEvent\Bouteille		556096
 	643083049	nappe_02	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\nappe_02_3387BFF9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\RND_Music\Music02\nappe_02		1059372
 	748120893	SFX_Launch_02	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX_Launch_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\géneric action\Rnd_Launch_object\SFX_Launch_02		40592
+	766335794	SFX_endFire	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\MetalHit IE03_69_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\event_onboard\feu\SFX_endFire		293684
 	766672088	bass	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\bass_11DF56AC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\RND_Music\Music03\bass		1410960
 	777022417	SFX_Batterie_01	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX_Batterie_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\ToolsEvent\ToolsEvent\RND_Batterie\SFX_Batterie_01		152640
 	787040562	SFX_Launch_04	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX_Launch_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\géneric action\Rnd_Launch_object\SFX_Launch_04		39412

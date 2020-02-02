@@ -38,7 +38,6 @@
 				<Event Id="1836332689" Name="Play_ToolsEvent" ObjectPath="\Events\Default Work Unit\Play_ToolsEvent"/>
 				<Event Id="1867413771" Name="Stop_SFX_endFire" ObjectPath="\Events\Default Work Unit\Stop_SFX_endFire"/>
 				<Event Id="46816298" Name="Stop_SFX_faille_loop" ObjectPath="\Events\Default Work Unit\Stop_SFX_faille_loop"/>
-				<Event Id="4165028173" Name="Stop_SFX_Fire_loop" ObjectPath="\Events\Default Work Unit\Stop_SFX_Fire_loop"/>
 				<Event Id="3706193614" Name="Stop_teleportAlien" ObjectPath="\Events\Default Work Unit\Stop_teleportAlien"/>
 				<Event Id="4247771906" Name="Switch_Play_Tools" ObjectPath="\Events\Default Work Unit\Switch_Play_Tools"/>
 				<Event Id="3117655700" Name="Switch_Stop_Tools" ObjectPath="\Events\Default Work Unit\Switch_Stop_Tools"/>
@@ -163,6 +162,10 @@
 				<File Id="748120893" Language="SFX">
 					<ShortName>SFX_Launch_02.wav</ShortName>
 					<Path>SFX\SFX_Launch_02_10C4C929.wem</Path>
+				</File>
+				<File Id="766335794" Language="SFX">
+					<ShortName>MetalHit IE03_69_03.wav</ShortName>
+					<Path>SFX\MetalHit IE03_69_03_10C4C929.wem</Path>
 				</File>
 				<File Id="766672088" Language="SFX">
 					<ShortName>bass.wav</ShortName>
