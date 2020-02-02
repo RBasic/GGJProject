@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="134">
 	<RootPaths>
-		<ProjectRoot>C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Valentin\Documents\Unreal\GGJProject\GGJProject_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Valentin\Documents\Unreal\GGJProject\GGJProject_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Valentin\Documents\Unreal\GGJProject\GGJProject_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Valentin\Documents\Unreal\GGJProject\GGJProject_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -23,7 +23,9 @@
 			<IncludedEvents>
 				<Event Id="2668492475" Name="event_faille" ObjectPath="\Events\Default Work Unit\event_faille"/>
 				<Event Id="3213331111" Name="Play_AMB_spaceship" ObjectPath="\Events\Default Work Unit\Play_AMB_spaceship"/>
+				<Event Id="549560981" Name="Play_Close_Door_SFX" ObjectPath="\Events\Default Work Unit\Play_Close_Door_SFX"/>
 				<Event Id="1228139402" Name="Play_Music_Switch" ObjectPath="\Events\Default Work Unit\Play_Music_Switch"/>
+				<Event Id="3150045337" Name="Play_Open_Door_SFX" ObjectPath="\Events\Default Work Unit\Play_Open_Door_SFX"/>
 				<Event Id="4091125625" Name="Play_Rnd_Fart_eggs" ObjectPath="\Events\Default Work Unit\Play_Rnd_Fart_eggs"/>
 				<Event Id="1835716282" Name="Play_Rnd_Launch_object" ObjectPath="\Events\Default Work Unit\Play_Rnd_Launch_object"/>
 				<Event Id="3420737605" Name="Play_RND_pipKey_Menu" ObjectPath="\Events\Default Work Unit\Play_RND_pipKey_Menu"/>
@@ -97,6 +99,10 @@
 				<File Id="391901647" Language="SFX">
 					<ShortName>guit.wav</ShortName>
 					<Path>SFX\guit_5BB2B1E4.wem</Path>
+				</File>
+				<File Id="394649533" Language="SFX">
+					<ShortName>SFX_02.wav</ShortName>
+					<Path>SFX\SFX_02_10C4C929.wem</Path>
 				</File>
 				<File Id="394909220" Language="SFX">
 					<ShortName>SFX_Launch_03.wav</ShortName>
@@ -173,6 +179,10 @@
 				<File Id="792725130" Language="SFX">
 					<ShortName>Kick02.wav</ShortName>
 					<Path>SFX\Kick02_AEA638C2.wem</Path>
+				</File>
+				<File Id="798218585" Language="SFX">
+					<ShortName>SFX-Reverse_02-01.wav</ShortName>
+					<Path>SFX\SFX-Reverse_02-01_10C4C929.wem</Path>
 				</File>
 				<File Id="834958825" Language="SFX">
 					<ShortName>BT HUMAN Fart Arm Pit-01.wav</ShortName>
