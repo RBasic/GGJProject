@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="134">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Valentin\Documents\Unreal\GGJProject\GGJProject_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Valentin\Documents\Unreal\GGJProject\GGJProject_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Valentin\Documents\Unreal\GGJProject\GGJProject_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Valentin\Documents\Unreal\GGJProject\GGJProject_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>

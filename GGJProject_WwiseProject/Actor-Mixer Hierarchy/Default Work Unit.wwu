@@ -859,6 +859,19 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Open_Door_SFX" ID="{C226051B-E060-4B71-AE58-19DFE99A43CA}" ShortID="305261732">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{93923C9A-6042-42B4-B851-437635C9CB50}"/>
@@ -878,6 +891,19 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Close_Door_SFX" ID="{D9D5513F-2840-412B-811A-D5A5D407C974}" ShortID="414361492">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{93923C9A-6042-42B4-B851-437635C9CB50}"/>
