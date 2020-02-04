@@ -53,7 +53,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	3869104	SFX_Radar	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Radar_D53E8938.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\ToolsEvent\ToolsEvent\SFX_Radar		704952
 	58055356	bass2	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\bass2_442AFC7E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\RND_Music\Music03\bass2		1413680
 	92226255	percu_01	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\percu_01_3387BFF9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\RND_Music\Music02\percu_01		1059372
-	162790399	electricity-002	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\electricity-002_B0EC021E.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Electricity\electricity-002		1913564
+	162790399	electricity-002	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\electricity-002_C9F933B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Electricity\electricity-002		1913564
 	167121790	BT HUMAN Fart Arm Pit-02	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\BT HUMAN Fart Arm Pit-02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Alien\Rnd_Fart_eggs\BT HUMAN Fart Arm Pit-02		32676
 	174739024	SFX_extinguisher	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\MetalHit IE03_69_01-01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\Tools\SFX_extinguisher		378944
 	179365573	SFX_Grab	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_grab_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\géneric action\SFX_Grab		53568
@@ -78,7 +78,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	529657217	start menu	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\MUI SELECT DIGITAL Beeper_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu\start menu		43048
 	534247009	kick01	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\kick_A04DE8C8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\RND_Music\Music01\kick01		1416400
 	569167608	AMB_spaceship	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SF-DS Ambience Spaceship Rumble 02-01.L_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Ship_room\AMB_spaceship		457280
-	583382201	electricity-003	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\electricity-003_A6716F19.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Electricity\electricity-003		1870320
+	583382201	electricity-003	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\electricity-003_FE5101B1.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Electricity\electricity-003		1870320
 	609514943	SFX_Processeur	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Processeur_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\ToolsEvent\ToolsEvent\SFX_Processeur		1024064
 	629135951	nappe_01	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\nappe_01_A17FC0CB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\RND_Music\Music02\nappe_01		1058952
 	630576359	Bouteille	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_C02_OS_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\ToolsEvent\ToolsEvent\Bouteille		556096
@@ -96,7 +96,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	872101684	pad1	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\pad1_EFA94964.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\RND_Music\Music03\pad1		1416400
 	891193647	teleportAlien	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\MUI PROGRESS Alien Discussion_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Alien\teleportAlien		241068
 	891603908	SFX_Batterie_03	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Batterie_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\ToolsEvent\ToolsEvent\RND_Batterie\SFX_Batterie_03		129192
-	934122160	electricity-001	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\electricity-001_E8125A6F.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Electricity\electricity-001		903008
+	934122160	electricity-001	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\electricity-001_3DE9FE1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Electricity\electricity-001		903008
 	1034194567	SFX_Launch_01	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Launch_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\géneric action\Rnd_Launch_object\SFX_Launch_01		44000
 	1037971913	SFX_Faille_loop	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Faille_Loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\event_onboard\bréche\SFX_Faille_loop		563916
 
