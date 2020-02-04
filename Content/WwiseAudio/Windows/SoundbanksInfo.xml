@@ -29,7 +29,7 @@
 				<Event Id="25161603" Name="Play_computer02" ObjectPath="\Events\Default Work Unit\Event_AMB\Play_computer02"/>
 				<Event Id="3773288514" Name="Play_Electricity_loop" ObjectPath="\Events\Default Work Unit\Event_AMB\Play_Electricity_loop"/>
 				<Event Id="1427483701" Name="Play_machine" ObjectPath="\Events\Default Work Unit\Event_AMB\Play_machine"/>
-				<Event Id="1228139402" Name="Play_Music_Switch" ObjectPath="\Events\Default Work Unit\Music\Play_Music_Switch"/>
+				<Event Id="1228139402" Name="Play_music_switch" ObjectPath="\Events\Default Work Unit\Music\Play_music_switch"/>
 				<Event Id="3150045337" Name="Play_Open_Door_SFX" ObjectPath="\Events\Default Work Unit\Event_AMB\Play_Open_Door_SFX"/>
 				<Event Id="4091125625" Name="Play_Rnd_Fart_eggs" ObjectPath="\Events\Default Work Unit\Event_character\Play_Rnd_Fart_eggs"/>
 				<Event Id="1835716282" Name="Play_Rnd_Launch_object" ObjectPath="\Events\Default Work Unit\Event_character\Play_Rnd_Launch_object"/>
@@ -52,13 +52,21 @@
 					<ShortName>SFX_Radar.wav</ShortName>
 					<Path>SFX\SFX_Radar_D53E8938.wem</Path>
 				</File>
-				<File Id="58055356" Language="SFX">
-					<ShortName>bass2.wav</ShortName>
-					<Path>SFX\bass2_442AFC7E.wem</Path>
-				</File>
-				<File Id="92226255" Language="SFX">
+				<File Id="39673602" Language="SFX">
 					<ShortName>percu_01.wav</ShortName>
-					<Path>SFX\percu_01_3387BFF9.wem</Path>
+					<Path>SFX\percu_01_D79FB2B7.wem</Path>
+				</File>
+				<File Id="96901645" Language="SFX">
+					<ShortName>nappe_02.wav</ShortName>
+					<Path>SFX\nappe_02_D79FB2B7.wem</Path>
+				</File>
+				<File Id="141169420" Language="SFX">
+					<ShortName>nape 2.wav</ShortName>
+					<Path>SFX\nape 2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="145488717" Language="SFX">
+					<ShortName>music menu.wav</ShortName>
+					<Path>SFX\music menu_D79FB2B7.wem</Path>
 				</File>
 				<File Id="162790399" Language="SFX">
 					<ShortName>electricity-002.wav</ShortName>
@@ -72,13 +80,25 @@
 					<ShortName>MetalHit IE03_69_01-01.wav</ShortName>
 					<Path>SFX\MetalHit IE03_69_01-01_D79FB2B7.wem</Path>
 				</File>
+				<File Id="175161716" Language="SFX">
+					<ShortName>pad1.wav</ShortName>
+					<Path>SFX\pad1_D79FB2B7.wem</Path>
+				</File>
 				<File Id="179365573" Language="SFX">
 					<ShortName>SFX_grab.wav</ShortName>
 					<Path>SFX\SFX_grab_10C4C929.wem</Path>
 				</File>
+				<File Id="193724291" Language="SFX">
+					<ShortName>bass.wav</ShortName>
+					<Path>SFX\bass_D79FB2B7.wem</Path>
+				</File>
 				<File Id="195789531" Language="SFX">
 					<ShortName>SFX_Clef_02.wav</ShortName>
 					<Path>SFX\SFX_Clef_02_10C4C929.wem</Path>
+				</File>
+				<File Id="197614478" Language="SFX">
+					<ShortName>kick.wav</ShortName>
+					<Path>SFX\kick_D79FB2B7.wem</Path>
 				</File>
 				<File Id="199485040" Language="SFX">
 					<ShortName>HUI_StartButton.wav</ShortName>
@@ -87,10 +107,6 @@
 				<File Id="210116033" Language="SFX">
 					<ShortName>Amb_cabine.wav</ShortName>
 					<Path>SFX\Amb_cabine_710680D1.wem</Path>
-				</File>
-				<File Id="212045705" Language="SFX">
-					<ShortName>nape 3.wav</ShortName>
-					<Path>SFX\nape 3_3AE09B6E.wem</Path>
 				</File>
 				<File Id="230481105" Language="SFX">
 					<ShortName>SFX_Clef_01.wav</ShortName>
@@ -104,13 +120,9 @@
 					<ShortName>Fer à souder_01.wav</ShortName>
 					<Path>SFX\Fer à souder_01_10C4C929.wem</Path>
 				</File>
-				<File Id="304611186" Language="SFX">
-					<ShortName>nape 1.wav</ShortName>
-					<Path>SFX\nape 1_99C22A10.wem</Path>
-				</File>
-				<File Id="391901647" Language="SFX">
-					<ShortName>guit.wav</ShortName>
-					<Path>SFX\guit_5BB2B1E4.wem</Path>
+				<File Id="314248909" Language="SFX">
+					<ShortName>bass2.wav</ShortName>
+					<Path>SFX\bass2_D79FB2B7.wem</Path>
 				</File>
 				<File Id="394649533" Language="SFX">
 					<ShortName>SFX_02.wav</ShortName>
@@ -132,14 +144,6 @@
 					<ShortName>BT HUMAN Fart Arm Pit-03.wav</ShortName>
 					<Path>SFX\BT HUMAN Fart Arm Pit-03_10C4C929.wem</Path>
 				</File>
-				<File Id="447497608" Language="SFX">
-					<ShortName>Music Menu.wav</ShortName>
-					<Path>SFX\Music Menu_68693423.wem</Path>
-				</File>
-				<File Id="474477816" Language="SFX">
-					<ShortName>nape 2.wav</ShortName>
-					<Path>SFX\nape 2_849DC8AE.wem</Path>
-				</File>
 				<File Id="480003114" Language="SFX">
 					<ShortName>MACK Fire Burn Medium Blaze-03.wav</ShortName>
 					<Path>SFX\MACK Fire Burn Medium Blaze-03_D79FB2B7.wem</Path>
@@ -152,9 +156,9 @@
 					<ShortName>MUI SELECT DIGITAL Beeper_01.wav</ShortName>
 					<Path>SFX\MUI SELECT DIGITAL Beeper_01_10C4C929.wem</Path>
 				</File>
-				<File Id="534247009" Language="SFX">
-					<ShortName>kick.wav</ShortName>
-					<Path>SFX\kick_A04DE8C8.wem</Path>
+				<File Id="560649122" Language="SFX">
+					<ShortName>nape 1.wav</ShortName>
+					<Path>SFX\nape 1_D79FB2B7.wem</Path>
 				</File>
 				<File Id="569167608" Language="SFX">
 					<ShortName>SF-DS Ambience Spaceship Rumble 02-01.L.wav</ShortName>
@@ -168,10 +172,6 @@
 					<ShortName>SFX_Processeur.wav</ShortName>
 					<Path>SFX\SFX_Processeur_10C4C929.wem</Path>
 				</File>
-				<File Id="629135951" Language="SFX">
-					<ShortName>nappe_01.wav</ShortName>
-					<Path>SFX\nappe_01_A17FC0CB.wem</Path>
-				</File>
 				<File Id="630576359" Language="SFX">
 					<ShortName>SFX_C02_OS.wav</ShortName>
 					<Path>SFX\SFX_C02_OS_10C4C929.wem</Path>
@@ -180,37 +180,45 @@
 					<ShortName>Amb_computer02.wav</ShortName>
 					<Path>SFX\Amb_computer02_D79FB2B7.wem</Path>
 				</File>
-				<File Id="643083049" Language="SFX">
-					<ShortName>nappe_02.wav</ShortName>
-					<Path>SFX\nappe_02_3387BFF9.wem</Path>
+				<File Id="678629636" Language="SFX">
+					<ShortName>Kick02.wav</ShortName>
+					<Path>SFX\Kick02_D79FB2B7.wem</Path>
 				</File>
 				<File Id="706293368" Language="SFX">
 					<ShortName>Amb_computer.wav</ShortName>
 					<Path>SFX\Amb_computer_36CFB8C7.wem</Path>
 				</File>
+				<File Id="740404754" Language="SFX">
+					<ShortName>nappe_01.wav</ShortName>
+					<Path>SFX\nappe_01_D79FB2B7.wem</Path>
+				</File>
 				<File Id="748120893" Language="SFX">
 					<ShortName>SFX_Launch_02.wav</ShortName>
 					<Path>SFX\SFX_Launch_02_10C4C929.wem</Path>
 				</File>
-				<File Id="766672088" Language="SFX">
-					<ShortName>bass.wav</ShortName>
-					<Path>SFX\bass_11DF56AC.wem</Path>
+				<File Id="752444125" Language="SFX">
+					<ShortName>guitare.wav</ShortName>
+					<Path>SFX\guitare_D79FB2B7.wem</Path>
 				</File>
 				<File Id="777022417" Language="SFX">
 					<ShortName>SFX_Batterie_01.wav</ShortName>
 					<Path>SFX\SFX_Batterie_01_10C4C929.wem</Path>
 				</File>
+				<File Id="783310804" Language="SFX">
+					<ShortName>faille.wav</ShortName>
+					<Path>SFX\faille_D79FB2B7.wem</Path>
+				</File>
 				<File Id="787040562" Language="SFX">
 					<ShortName>SFX_Launch_04.wav</ShortName>
 					<Path>SFX\SFX_Launch_04_10C4C929.wem</Path>
 				</File>
-				<File Id="792725130" Language="SFX">
-					<ShortName>Kick02.wav</ShortName>
-					<Path>SFX\Kick02_AEA638C2.wem</Path>
-				</File>
 				<File Id="798218585" Language="SFX">
 					<ShortName>SFX-Reverse_02-01.wav</ShortName>
 					<Path>SFX\SFX-Reverse_02-01_10C4C929.wem</Path>
+				</File>
+				<File Id="829937895" Language="SFX">
+					<ShortName>nape 3.wav</ShortName>
+					<Path>SFX\nape 3_D79FB2B7.wem</Path>
 				</File>
 				<File Id="834958825" Language="SFX">
 					<ShortName>BT HUMAN Fart Arm Pit-01.wav</ShortName>
@@ -219,10 +227,6 @@
 				<File Id="853975709" Language="SFX">
 					<ShortName>SFX_Clef_03.wav</ShortName>
 					<Path>SFX\SFX_Clef_03_10C4C929.wem</Path>
-				</File>
-				<File Id="872101684" Language="SFX">
-					<ShortName>pad1.wav</ShortName>
-					<Path>SFX\pad1_EFA94964.wem</Path>
 				</File>
 				<File Id="891193647" Language="SFX">
 					<ShortName>MUI PROGRESS Alien Discussion_01.wav</ShortName>
@@ -239,10 +243,6 @@
 				<File Id="1034194567" Language="SFX">
 					<ShortName>SFX_Launch_01.wav</ShortName>
 					<Path>SFX\SFX_Launch_01_10C4C929.wem</Path>
-				</File>
-				<File Id="1037971913" Language="SFX">
-					<ShortName>SFX_Faille_Loop.wav</ShortName>
-					<Path>SFX\SFX_Faille_Loop_D79FB2B7.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
