@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<StateGroup Name="Music" ID="{42894D6E-C1E3-4A27-9697-54C2CE6355F7}">
 					<PropertyList>
-						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.5"/>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
 					</PropertyList>
 					<ChildrenList>
 						<State Name="None" ID="{C45C6B1C-CCB6-4B19-9033-5FEAEAE12CB2}"/>
