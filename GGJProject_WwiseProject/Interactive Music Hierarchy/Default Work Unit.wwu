@@ -4,6 +4,10 @@
 		<WorkUnit Name="Default Work Unit" ID="{BB4E3DED-AD5C-4548-AA0B-80E02C0C1DD0}" PersistMode="Standalone">
 			<ChildrenList>
 				<MusicSwitchContainer Name="music_switch" ID="{34CF7E47-6F98-41A6-91F1-7C08850DE716}" ShortID="4999760">
+					<PropertyList>
+						<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{93923C9A-6042-42B4-B851-437635C9CB50}"/>
@@ -815,11 +819,70 @@
 													<ClipList>
 														<MusicClip Name="music menu" ID="{2D70AA55-B560-44F2-B32F-8952E71B78BE}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="16834.9659863946"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="15848.5817201313"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
 															<AudioSourceRef Name="music menu" ID="{F358A356-2FAE-40CB-8FC4-8E6B04DA9220}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{C5F9CF21-3F91-4739-B551-44DB4D8AAA1C}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>15.84858</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{96127AD3-F7CE-4F51-9EF9-B305500F706E}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>15.84858</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{A96B10F8-6C22-46FE-ABB9-A83CCF37F203}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>15.84858</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -831,7 +894,7 @@
 										<MusicCue Name="Exit Cue" ID="{5321162A-44D6-4637-A6C1-17847DE2ADFA}">
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="15838.1240544629"/>
+												<Property Name="TimeMs" Type="Real64" Value="1853.25264750375"/>
 											</PropertyList>
 										</MusicCue>
 									</CueList>
@@ -865,6 +928,9 @@
 							</Playlist>
 						</MusicPlaylistContainer>
 					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{3FD7B162-154C-48A0-9AD7-99AA7929707C}"/>
+					</PositioningInfo>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{9B1285BE-B688-49FD-90FB-97FE8E536B6D}">
 							<PropertyList>
