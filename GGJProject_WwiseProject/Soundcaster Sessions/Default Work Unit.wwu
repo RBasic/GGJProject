@@ -31,6 +31,10 @@
 							<GameParameterRef Name="Time" ID="{9422A628-FD4E-470B-9CF6-0D3F02296DFC}"/>
 							<Value>0.531413612565445</Value>
 						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="LOD" ID="{F5A3CAF3-81E4-4897-B029-9BC3E9C7D627}"/>
+							<Value>0</Value>
+						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">

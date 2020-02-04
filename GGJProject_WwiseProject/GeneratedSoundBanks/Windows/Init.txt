@@ -1,11 +1,7 @@
 State Group	ID	Name			Wwise Object Path	Notes
-	1653531661	Statefaille			\Default Work Unit\Statefaille	
 	3991942870	Music			\Default Work Unit\Music	
 
 State	ID	Name	State Group			Notes
-	0	None	Statefaille			
-	1160234136	normal	Statefaille			
-	2293472017	filtre	Statefaille			
 	0	None	Music			
 	2607556080	Menu	Music			
 	3719320276	random_Music	Music			
@@ -14,8 +10,6 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	2415836739	volume			\Default Work Unit\volume	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
-	508408299	Attenuation			\Default Work Unit\Master Audio Bus\Attenuation	
-	2293472017	Filtre			\Default Work Unit\Master Audio Bus\Filtre	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Audio Devices	ID	Name	Type				Notes
