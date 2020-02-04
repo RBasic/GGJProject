@@ -4,7 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	549560981	Play_Close_Door_SFX			\Default Work Unit\Event_AMB\Play_Close_Door_SFX	
 	906404660	Play_start_menu			\Default Work Unit\Menu\Play_start_menu	
 	969466560	Play_teleportAlien			\Default Work Unit\Event_character\Play_teleportAlien	
-	1228139402	Play_music_switch			\Default Work Unit\Play_music_switch	
+	1228139402	Play_music_switch			\Default Work Unit\Music\Play_music_switch	
 	1427483701	Play_machine			\Default Work Unit\Event_AMB\Play_machine	
 	1437717384	Stop_Electricity_loop			\Default Work Unit\Event_AMB\Stop_Electricity_loop	
 	1444205428	Play_StartGame			\Default Work Unit\Menu\Play_StartGame	

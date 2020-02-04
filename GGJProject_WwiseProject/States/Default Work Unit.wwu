@@ -13,21 +13,6 @@
 						<State Name="random_Music" ID="{F7556815-A8FF-4E53-B206-0A887485D242}"/>
 					</ChildrenList>
 				</StateGroup>
-				<StateGroup Name="Statefaille" ID="{B7D0CD85-8F75-4D88-BFE5-E72920828AB5}">
-					<ChildrenList>
-						<State Name="None" ID="{D5E466BF-5540-430C-B5CD-721DA089C718}"/>
-						<State Name="normal" ID="{5515B1CB-4CCA-4E6F-9BB1-4258094C58EF}"/>
-						<State Name="filtre" ID="{281F8C8A-EE55-49A6-A50B-06ED13CAD16A}"/>
-					</ChildrenList>
-					<TransitionList>
-						<Transition>
-							<StartState Name="normal" ID="{5515B1CB-4CCA-4E6F-9BB1-4258094C58EF}"/>
-							<EndState Name="filtre" ID="{281F8C8A-EE55-49A6-A50B-06ED13CAD16A}"/>
-							<Time>1</Time>
-							<IsShared>true</IsShared>
-						</Transition>
-					</TransitionList>
-				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

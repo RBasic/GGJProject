@@ -353,7 +353,7 @@
 																	</Point>
 																	<Point>
 																		<XPos>0.50242</XPos>
-																		<YPos>-0</YPos>
+																		<YPos>0</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
@@ -424,7 +424,7 @@
 																	</Point>
 																	<Point>
 																		<XPos>0.39915</XPos>
-																		<YPos>-0</YPos>
+																		<YPos>0</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
@@ -572,15 +572,6 @@
 									</ReferenceList>
 									<ChildrenList>
 										<MusicTrack Name="bass" ID="{5B7972CD-961C-4E1D-8176-18B3D54BEE64}" ShortID="1043491527">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<RTPCList>
-														<RTPC Name="" ID="{9F3B4625-7771-4FF3-AE82-C92B8CFC6E0D}" ShortID="928326272">
-															<ReferenceList/>
-														</RTPC>
-													</RTPCList>
-												</Property>
-											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56488E5C-5ABB-430F-BF88-69602EBD2065}"/>
@@ -770,6 +761,13 @@
 							</Playlist>
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="Music_Menu" ID="{3AFB5AE3-5D72-4023-9BF4-BC7F4C83A2CB}" ShortID="378448289">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-18</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{93923C9A-6042-42B4-B851-437635C9CB50}"/>
