@@ -29,7 +29,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="random_Music" ID="{F7556815-A8FF-4E53-B206-0A887485D242}"/>
+						<CurrentStateRef Name="Menu" ID="{1DD0444B-94C4-49FF-9A1F-17C340DABD6E}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Batterie" ID="{DF4ED4C4-6F4B-4EA6-8EF5-70C1CC3C5C37}"/>
