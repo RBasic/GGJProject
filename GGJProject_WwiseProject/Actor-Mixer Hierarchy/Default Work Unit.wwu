@@ -1063,6 +1063,105 @@
 								</Sound>
 							</ChildrenList>
 						</Folder>
+						<RandomSequenceContainer Name="Electricity" ID="{361F0622-F570-43D3-B2B7-68525BF9AB48}" ShortID="874666660">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Distance" ID="{776BFE4B-B09C-46A8-9530-3092D72FBA45}" WorkUnitID="{231C4243-2C40-466D-83BB-FE2DC45C69BF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{93923C9A-6042-42B4-B851-437635C9CB50}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56488E5C-5ABB-430F-BF88-69602EBD2065}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="electricity-001" ID="{141EB1E9-8845-45F6-B362-FCF74A1396F3}" ShortID="238332823">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{93923C9A-6042-42B4-B851-437635C9CB50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56488E5C-5ABB-430F-BF88-69602EBD2065}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="electricity-001" ID="{9D9AD67F-6443-4719-A137-B147F247BB0D}" ShortID="934122160">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="5.11873146858143"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>electricity-001.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="electricity-001" ID="{9D9AD67F-6443-4719-A137-B147F247BB0D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="electricity-002" ID="{CBAD74FA-3830-4104-A195-211106F4EB33}" ShortID="644658189">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{93923C9A-6042-42B4-B851-437635C9CB50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56488E5C-5ABB-430F-BF88-69602EBD2065}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="electricity-002" ID="{0DCF0D55-0C67-4398-A750-5898253B59E7}" ShortID="162790399">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="10.8475159606228"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>electricity-002.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="electricity-002" ID="{0DCF0D55-0C67-4398-A750-5898253B59E7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="electricity-003" ID="{9635982F-5EC7-4F98-B285-F9A78BDF3A7F}" ShortID="917976865">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{93923C9A-6042-42B4-B851-437635C9CB50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56488E5C-5ABB-430F-BF88-69602EBD2065}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="electricity-003" ID="{678BDE73-B59B-433B-8893-C9A4FD2268A5}" ShortID="583382201">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="10.6023687384431"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>electricity-003.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="electricity-003" ID="{678BDE73-B59B-433B-8893-C9A4FD2268A5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="event_onboard" ID="{DA8ABCC0-3377-45CB-8F4A-BC3BE40B5337}" ShortID="491563115">
@@ -1075,34 +1174,6 @@
 										<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
 										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="MaxSoundPerInstance" Type="int16">
-											<RTPCList>
-												<RTPC Name="" ID="{C18FB4BC-3EC4-4F46-B6EB-CCC3BADA356B}" ShortID="187197471">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="LOD" ID="{F5A3CAF3-81E4-4897-B029-9BC3E9C7D627}" WorkUnitID="{06FB20AB-4271-42E5-9959-A14233717056}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{EF7EBC38-F6F2-414A-829B-2D21C7B3F9E1}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="65537"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>50</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>1000</XPos>
-																<YPos>1</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-5</Value>
@@ -1147,32 +1218,6 @@
 											<ValueList>
 												<Value>4</Value>
 											</ValueList>
-											<RTPCList>
-												<RTPC Name="" ID="{7B7F6B19-5174-4939-8BD1-015EBA3516FE}" ShortID="510098641">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="LOD" ID="{F5A3CAF3-81E4-4897-B029-9BC3E9C7D627}" WorkUnitID="{06FB20AB-4271-42E5-9959-A14233717056}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{6F2DB796-559E-4129-8396-D7308BAD2907}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="65537"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>50</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>1000</XPos>
-																<YPos>1</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -2379,7 +2424,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-12</Value>
+										<Value>-22</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>

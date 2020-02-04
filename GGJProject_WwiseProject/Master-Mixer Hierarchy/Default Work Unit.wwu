@@ -39,23 +39,6 @@
 							<ObjectRef Name="System" ID="{41572825-3133-41EE-AA69-FD0F4068C602}" WorkUnitID="{C9138A64-DD36-488F-B6E6-AC428DDA2EEB}"/>
 						</Reference>
 					</ReferenceList>
-					<ChildrenList>
-						<Bus Name="Filtre" ID="{D904929A-6F0A-4461-8687-075F1CCEEFD1}"/>
-						<Bus Name="Attenuation" ID="{16551CEE-B3BA-49CA-8788-13CD0C899201}">
-							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
-								<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Attenuation">
-									<ObjectRef Name="Distance" ID="{776BFE4B-B09C-46A8-9530-3092D72FBA45}" WorkUnitID="{231C4243-2C40-466D-83BB-FE2DC45C69BF}"/>
-								</Reference>
-							</ReferenceList>
-							<PositioningInfo>
-								<Position Name="" ID="{143D5B2D-D9BF-42B1-A686-18522DA61E13}"/>
-							</PositioningInfo>
-						</Bus>
-					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

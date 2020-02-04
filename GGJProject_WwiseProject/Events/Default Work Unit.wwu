@@ -136,27 +136,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Stop_SFX_endFire" ID="{C786D294-8F68-45A0-8BA5-6514F5BDFF2A}">
-							<ChildrenList>
-								<Action Name="" ID="{786E427C-5F99-4A1C-A5DB-FAB1BED3E9A4}" ShortID="538583245">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="SFX_endFire" ID="{3949ADC8-4F90-46D9-A46D-FA80D3AF6BE5}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{1C79015E-1F68-4FC0-BA1A-DB2EAF71F0FA}" ShortID="554197133">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="SFX_Fire_loop" ID="{99283FCC-9190-491A-A149-AB1538B20DE2}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="Stop_SFX_faille_loop" ID="{6841ADCA-CD8E-4650-9233-130CF3A38595}">
 							<ChildrenList>
 								<Action Name="" ID="{439E5DB8-F7F9-4821-968E-56FE044F15BB}" ShortID="1042705911">
@@ -241,6 +220,53 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_computer02" ID="{CAD02D45-FF48-4F74-AE38-49793B7C9745}">
+							<ChildrenList>
+								<Action Name="" ID="{9F38D469-234F-4D51-AADD-B04F7A80C580}" ShortID="310796517">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="computer02" ID="{3E5C287B-0F3C-466C-82E5-4A7558F4C7B0}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_computer" ID="{C7062108-8CAD-4A35-B994-CEA4652A3B9C}">
+							<ChildrenList>
+								<Action Name="" ID="{90C72AC7-D1FB-4B77-A83E-4273944EB065}" ShortID="395086796">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="computer" ID="{9D4DF69B-BD8F-4CB7-95BA-1EC9C47D007E}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Electricity_loop" ID="{7FED5A99-5A23-478D-964E-6F55334AC188}">
+							<ChildrenList>
+								<Action Name="" ID="{E90FCD9F-ACE6-4021-857F-CE54095815AA}" ShortID="355628899">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Electricity" ID="{361F0622-F570-43D3-B2B7-68525BF9AB48}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Electricity_loop" ID="{797EFEBB-0A71-4B9C-B439-FF270F0D233F}">
+							<ChildrenList>
+								<Action Name="" ID="{9BDA857E-BCAB-4F11-B301-21FEA8F44065}" ShortID="719125975">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Electricity" ID="{361F0622-F570-43D3-B2B7-68525BF9AB48}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Music" ID="{F437282F-55B7-493A-AB1A-0CA428FA9A3F}" ShortID="86113160">
@@ -295,28 +321,6 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="Play_computer" ID="{C7062108-8CAD-4A35-B994-CEA4652A3B9C}">
-					<ChildrenList>
-						<Action Name="" ID="{90C72AC7-D1FB-4B77-A83E-4273944EB065}" ShortID="395086796">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="computer" ID="{9D4DF69B-BD8F-4CB7-95BA-1EC9C47D007E}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_computer02" ID="{CAD02D45-FF48-4F74-AE38-49793B7C9745}">
-					<ChildrenList>
-						<Action Name="" ID="{9F38D469-234F-4D51-AADD-B04F7A80C580}" ShortID="310796517">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="computer02" ID="{3E5C287B-0F3C-466C-82E5-4A7558F4C7B0}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
