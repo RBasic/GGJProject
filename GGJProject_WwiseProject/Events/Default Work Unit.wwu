@@ -271,12 +271,12 @@
 				</Folder>
 				<Folder Name="Music" ID="{F437282F-55B7-493A-AB1A-0CA428FA9A3F}" ShortID="86113160">
 					<ChildrenList>
-						<Event Name="Play_Music_Switch" ID="{21FFA319-A6A4-4820-BF8B-913845388A60}">
+						<Event Name="Play_music_switch" ID="{D6272703-F2B0-4ECC-A568-2747B5A51428}">
 							<ChildrenList>
-								<Action Name="" ID="{39D9F23A-573A-4D70-94AD-09073D587A1A}" ShortID="271112601">
+								<Action Name="" ID="{E6BB1A79-4EA7-4118-BDD2-190B18F88262}" ShortID="632447110">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Music" ID="{9DB268A5-383E-4318-8E59-220B5F5EE92C}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+											<ObjectRef Name="music_switch" ID="{34CF7E47-6F98-41A6-91F1-7C08850DE716}" WorkUnitID="{BB4E3DED-AD5C-4548-AA0B-80E02C0C1DD0}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
