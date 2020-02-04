@@ -11,7 +11,7 @@
 				</GameParameter>
 				<GameParameter Name="Time" ID="{9422A628-FD4E-470B-9CF6-0D3F02296DFC}">
 					<PropertyList>
-						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
 						<Property Name="Max" Type="Real64" Value="1"/>
 					</PropertyList>
 				</GameParameter>

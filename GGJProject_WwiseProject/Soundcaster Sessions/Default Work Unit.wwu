@@ -25,10 +25,12 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Time" ID="{9422A628-FD4E-470B-9CF6-0D3F02296DFC}"/>
-							<Value>0.531413612565445</Value>
+							<Value>0</Value>
 						</RTPCValue>
 					</RTPCValueList>
-					<CurrentStateList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="random_Music" ID="{F7556815-A8FF-4E53-B206-0A887485D242}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Batterie" ID="{DF4ED4C4-6F4B-4EA6-8EF5-70C1CC3C5C37}"/>
 						<CurrentSwitchRef Name="Extincteur" ID="{6760DDB2-5A49-4899-96DD-19031B1BCE9E}"/>
