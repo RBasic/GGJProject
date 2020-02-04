@@ -25,8 +25,9 @@
 				<Event Id="3213331111" Name="Play_AMB_spaceship" ObjectPath="\Events\Default Work Unit\Event_AMB\Play_AMB_spaceship"/>
 				<Event Id="3721978706" Name="Play_cabine" ObjectPath="\Events\Default Work Unit\Event_AMB\Play_cabine"/>
 				<Event Id="549560981" Name="Play_Close_Door_SFX" ObjectPath="\Events\Default Work Unit\Event_AMB\Play_Close_Door_SFX"/>
-				<Event Id="1984956505" Name="Play_computer" ObjectPath="\Events\Default Work Unit\Play_computer"/>
-				<Event Id="25161603" Name="Play_computer02" ObjectPath="\Events\Default Work Unit\Play_computer02"/>
+				<Event Id="1984956505" Name="Play_computer" ObjectPath="\Events\Default Work Unit\Event_AMB\Play_computer"/>
+				<Event Id="25161603" Name="Play_computer02" ObjectPath="\Events\Default Work Unit\Event_AMB\Play_computer02"/>
+				<Event Id="3773288514" Name="Play_Electricity_loop" ObjectPath="\Events\Default Work Unit\Event_AMB\Play_Electricity_loop"/>
 				<Event Id="1427483701" Name="Play_machine" ObjectPath="\Events\Default Work Unit\Event_AMB\Play_machine"/>
 				<Event Id="1228139402" Name="Play_Music_Switch" ObjectPath="\Events\Default Work Unit\Music\Play_Music_Switch"/>
 				<Event Id="3150045337" Name="Play_Open_Door_SFX" ObjectPath="\Events\Default Work Unit\Event_AMB\Play_Open_Door_SFX"/>
@@ -40,7 +41,7 @@
 				<Event Id="1444205428" Name="Play_StartGame" ObjectPath="\Events\Default Work Unit\Menu\Play_StartGame"/>
 				<Event Id="969466560" Name="Play_teleportAlien" ObjectPath="\Events\Default Work Unit\Event_character\Play_teleportAlien"/>
 				<Event Id="1836332689" Name="Play_ToolsEvent" ObjectPath="\Events\Default Work Unit\Event_character\tools\Play_ToolsEvent"/>
-				<Event Id="1867413771" Name="Stop_SFX_endFire" ObjectPath="\Events\Default Work Unit\Event Faille and fire\Stop_SFX_endFire"/>
+				<Event Id="1437717384" Name="Stop_Electricity_loop" ObjectPath="\Events\Default Work Unit\Event_AMB\Stop_Electricity_loop"/>
 				<Event Id="46816298" Name="Stop_SFX_faille_loop" ObjectPath="\Events\Default Work Unit\Event Faille and fire\Stop_SFX_faille_loop"/>
 				<Event Id="3706193614" Name="Stop_teleportAlien" ObjectPath="\Events\Default Work Unit\Event_character\Stop_teleportAlien"/>
 				<Event Id="4247771906" Name="Switch_Play_Tools" ObjectPath="\Events\Default Work Unit\Event_character\tools\Switch_Play_Tools"/>
@@ -58,6 +59,10 @@
 				<File Id="92226255" Language="SFX">
 					<ShortName>percu_01.wav</ShortName>
 					<Path>SFX\percu_01_3387BFF9.wem</Path>
+				</File>
+				<File Id="162790399" Language="SFX">
+					<ShortName>electricity-002.wav</ShortName>
+					<Path>SFX\electricity-002_C9F933B2.wem</Path>
 				</File>
 				<File Id="167121790" Language="SFX">
 					<ShortName>BT HUMAN Fart Arm Pit-02.wav</ShortName>
@@ -155,6 +160,10 @@
 					<ShortName>SF-DS Ambience Spaceship Rumble 02-01.L.wav</ShortName>
 					<Path>SFX\SF-DS Ambience Spaceship Rumble 02-01.L_D79FB2B7.wem</Path>
 				</File>
+				<File Id="583382201" Language="SFX">
+					<ShortName>electricity-003.wav</ShortName>
+					<Path>SFX\electricity-003_FE5101B1.wem</Path>
+				</File>
 				<File Id="609514943" Language="SFX">
 					<ShortName>SFX_Processeur.wav</ShortName>
 					<Path>SFX\SFX_Processeur_10C4C929.wem</Path>
@@ -222,6 +231,10 @@
 				<File Id="891603908" Language="SFX">
 					<ShortName>SFX_Batterie_03.wav</ShortName>
 					<Path>SFX\SFX_Batterie_03_10C4C929.wem</Path>
+				</File>
+				<File Id="934122160" Language="SFX">
+					<ShortName>electricity-001.wav</ShortName>
+					<Path>SFX\electricity-001_3DE9FE1D.wem</Path>
 				</File>
 				<File Id="1034194567" Language="SFX">
 					<ShortName>SFX_Launch_01.wav</ShortName>
