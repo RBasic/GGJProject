@@ -572,13 +572,6 @@
 									</ReferenceList>
 									<ChildrenList>
 										<MusicTrack Name="bass" ID="{5B7972CD-961C-4E1D-8176-18B3D54BEE64}" ShortID="1043491527">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<RTPCList>
-														<RTPC Name="" ID="{9F3B4625-7771-4FF3-AE82-C92B8CFC6E0D}" ShortID="928326272"/>
-													</RTPCList>
-												</Property>
-											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56488E5C-5ABB-430F-BF88-69602EBD2065}"/>
@@ -771,7 +764,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-15</Value>
+										<Value>-18</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>

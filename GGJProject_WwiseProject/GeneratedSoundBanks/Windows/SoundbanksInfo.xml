@@ -29,7 +29,7 @@
 				<Event Id="25161603" Name="Play_computer02" ObjectPath="\Events\Default Work Unit\Event_AMB\Play_computer02"/>
 				<Event Id="3773288514" Name="Play_Electricity_loop" ObjectPath="\Events\Default Work Unit\Event_AMB\Play_Electricity_loop"/>
 				<Event Id="1427483701" Name="Play_machine" ObjectPath="\Events\Default Work Unit\Event_AMB\Play_machine"/>
-				<Event Id="1228139402" Name="Play_music_switch" ObjectPath="\Events\Default Work Unit\Play_music_switch"/>
+				<Event Id="1228139402" Name="Play_music_switch" ObjectPath="\Events\Default Work Unit\Music\Play_music_switch"/>
 				<Event Id="3150045337" Name="Play_Open_Door_SFX" ObjectPath="\Events\Default Work Unit\Event_AMB\Play_Open_Door_SFX"/>
 				<Event Id="4091125625" Name="Play_Rnd_Fart_eggs" ObjectPath="\Events\Default Work Unit\Event_character\Play_Rnd_Fart_eggs"/>
 				<Event Id="1835716282" Name="Play_Rnd_Launch_object" ObjectPath="\Events\Default Work Unit\Event_character\Play_Rnd_Launch_object"/>
