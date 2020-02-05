@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
 	<RootPaths>
-		<ProjectRoot>D:\GGJProject\GGJProject_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\GGJProject\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\Unreal Engine\GGJProject\GGJProject_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Unreal Engine\GGJProject\GGJProject_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Unreal Engine\GGJProject\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\GGJProject\GGJProject_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\Unreal Engine\GGJProject\GGJProject_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -22,6 +22,7 @@
 			<Path>soundbank.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2668492475" Name="event_faille" ObjectPath="\Events\Default Work Unit\Event Faille and fire\event_faille"/>
+				<Event Id="3866585168" Name="Play_AMB_Alarm" ObjectPath="\Events\Default Work Unit\Play_AMB_Alarm"/>
 				<Event Id="3213331111" Name="Play_AMB_spaceship" ObjectPath="\Events\Default Work Unit\Event_AMB\Play_AMB_spaceship"/>
 				<Event Id="3721978706" Name="Play_cabine" ObjectPath="\Events\Default Work Unit\Event_AMB\Play_cabine"/>
 				<Event Id="549560981" Name="Play_Close_Door_SFX" ObjectPath="\Events\Default Work Unit\Event_AMB\Play_Close_Door_SFX"/>
@@ -43,6 +44,7 @@
 				<Event Id="1836332689" Name="Play_ToolsEvent" ObjectPath="\Events\Default Work Unit\Event_character\tools\Play_ToolsEvent"/>
 				<Event Id="1437717384" Name="Stop_Electricity_loop" ObjectPath="\Events\Default Work Unit\Event_AMB\Stop_Electricity_loop"/>
 				<Event Id="46816298" Name="Stop_SFX_faille_loop" ObjectPath="\Events\Default Work Unit\Event Faille and fire\Stop_SFX_faille_loop"/>
+				<Event Id="4165028173" Name="Stop_SFX_Fire_loop" ObjectPath="\Events\Default Work Unit\Stop_SFX_Fire_loop"/>
 				<Event Id="3706193614" Name="Stop_teleportAlien" ObjectPath="\Events\Default Work Unit\Event_character\Stop_teleportAlien"/>
 				<Event Id="4247771906" Name="Switch_Play_Tools" ObjectPath="\Events\Default Work Unit\Event_character\tools\Switch_Play_Tools"/>
 				<Event Id="3117655700" Name="Switch_Stop_Tools" ObjectPath="\Events\Default Work Unit\Event_character\tools\Switch_Stop_Tools"/>
@@ -171,6 +173,10 @@
 				<File Id="609514943" Language="SFX">
 					<ShortName>SFX_Processeur.wav</ShortName>
 					<Path>SFX\SFX_Processeur_10C4C929.wem</Path>
+				</File>
+				<File Id="629404521" Language="SFX">
+					<ShortName>Alarme.wav</ShortName>
+					<Path>SFX\Alarme_D79FB2B7.wem</Path>
 				</File>
 				<File Id="630576359" Language="SFX">
 					<ShortName>SFX_C02_OS.wav</ShortName>
