@@ -25,7 +25,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Time" ID="{9422A628-FD4E-470B-9CF6-0D3F02296DFC}"/>
-							<Value>0</Value>
+							<Value>0.98</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
