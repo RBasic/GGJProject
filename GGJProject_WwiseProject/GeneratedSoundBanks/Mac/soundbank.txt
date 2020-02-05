@@ -23,6 +23,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3773288514	Play_Electricity_loop			\Default Work Unit\Event_AMB\Play_Electricity_loop	
 	3908763747	Play_SFX_Fire_loop			\Default Work Unit\Event Faille and fire\Play_SFX_Fire_loop	
 	4091125625	Play_Rnd_Fart_eggs			\Default Work Unit\Event_character\Play_Rnd_Fart_eggs	
+	4165028173	Stop_SFX_Fire_loop			\Default Work Unit\Stop_SFX_Fire_loop	
 	4247771906	Switch_Play_Tools			\Default Work Unit\Event_character\tools\Switch_Play_Tools	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
@@ -89,7 +90,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	748120893	SFX_Launch_02	D:\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX_Launch_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\géneric action\Rnd_Launch_object\SFX_Launch_02		40592
 	752444125	guitare	D:\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\guitare_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\music_switch\Music_RND\Music03\guitare		1587664
 	777022417	SFX_Batterie_01	D:\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX_Batterie_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tools\ToolsEvent\ToolsEvent\RND_Batterie\SFX_Batterie_01		152640
-	783310804	SFX_Faille_loop	D:\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\faille_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\event_onboard\bréche\SFX_Faille_loop		1587664
+	783310804	SFX_Faille_loop	D:\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\faille_300122FA.wem		\Actor-Mixer Hierarchy\Default Work Unit\event_onboard\bréche\SFX_Faille_loop		1410204
 	787040562	SFX_Launch_04	D:\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX_Launch_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\géneric action\Rnd_Launch_object\SFX_Launch_04		39412
 	798218585	Close_Door_SFX	D:\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\SFX-Reverse_02-01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Close_Door_SFX		110496
 	829937895	nappe03	D:\GGJProject\GGJProject_WwiseProject\.cache\Mac\SFX\nape 3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\music_switch\Music_RND\music01\nappe03		1587664
