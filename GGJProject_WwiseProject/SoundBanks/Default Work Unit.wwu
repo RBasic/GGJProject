@@ -8,6 +8,7 @@
 						<ObjectRef Name="Play_ToolsEvent" ID="{4504D6DF-79B6-4096-A45F-A3F37D733074}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Close_Door_SFX" ID="{37DFD130-9970-40B9-8C5F-7FCF4C1C0F13}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_AMB_spaceship" ID="{35B770A1-2918-4186-803C-6AB4773E277D}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_SFX_Fire_loop" ID="{C70B2CAD-31E1-432F-9C37-2273775E8A16}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_teleportAlien" ID="{C696CB82-87AE-4344-BF3D-37E06EBF48B8}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_start_menu" ID="{B36E7CE3-ED29-445E-B7EC-A305054499D2}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_SFX_Fire_loop" ID="{70650F19-920A-4471-8803-A2954BC940CF}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>

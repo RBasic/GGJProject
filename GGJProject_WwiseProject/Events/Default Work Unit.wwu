@@ -321,6 +321,20 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Stop_SFX_Fire_loop" ID="{C70B2CAD-31E1-432F-9C37-2273775E8A16}">
+					<ChildrenList>
+						<Action Name="" ID="{818B4057-D547-408F-A41C-54AFA7170166}" ShortID="708056191">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Fire_loop" ID="{99283FCC-9190-491A-A149-AB1538B20DE2}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
