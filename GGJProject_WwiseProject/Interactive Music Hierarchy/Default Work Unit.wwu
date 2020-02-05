@@ -7,11 +7,6 @@
 					<PropertyList>
 						<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
 						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-96</Value>
-							</ValueList>
-						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -788,7 +783,7 @@
 							<ChildrenList>
 								<MusicSegment Name="menu" ID="{0D5CA5D1-6EA1-450F-BC96-F4C3E954241E}" ShortID="1053579685">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="17962.1785173979"/>
+										<Property Name="EndPosition" Type="Real64" Value="19057.4886535552"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -899,7 +894,7 @@
 										<MusicCue Name="Exit Cue" ID="{5321162A-44D6-4637-A6C1-17847DE2ADFA}">
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="1853.25264750375"/>
+												<Property Name="TimeMs" Type="Real64" Value="15848.5817201313"/>
 											</PropertyList>
 										</MusicCue>
 									</CueList>
