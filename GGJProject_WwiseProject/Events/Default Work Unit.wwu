@@ -267,6 +267,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Stop_SFX_Fire_loop" ID="{C70B2CAD-31E1-432F-9C37-2273775E8A16}">
+							<ChildrenList>
+								<Action Name="" ID="{818B4057-D547-408F-A41C-54AFA7170166}" ShortID="708056191">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Fire_loop" ID="{99283FCC-9190-491A-A149-AB1538B20DE2}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Music" ID="{F437282F-55B7-493A-AB1A-0CA428FA9A3F}" ShortID="86113160">
@@ -321,23 +335,23 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="Stop_SFX_Fire_loop" ID="{C70B2CAD-31E1-432F-9C37-2273775E8A16}">
+				<Event Name="Play_AMB_Alarm" ID="{382B42A4-2F31-48B1-9E81-5735D155AEAE}">
 					<ChildrenList>
-						<Action Name="" ID="{818B4057-D547-408F-A41C-54AFA7170166}" ShortID="708056191">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
+						<Action Name="" ID="{4FBAF251-6641-4001-B5D4-F8F4F619831C}" ShortID="188234446">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SFX_Fire_loop" ID="{99283FCC-9190-491A-A149-AB1538B20DE2}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+									<ObjectRef Name="AMB_Alarm" ID="{24841D3A-A584-4585-A543-3B6AAD9B2E75}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_AMB_Alarm" ID="{382B42A4-2F31-48B1-9E81-5735D155AEAE}">
+				<Event Name="Stop_AMB_Alarm" ID="{B3E71991-D547-43F2-9C69-C35FFF63202E}">
 					<ChildrenList>
-						<Action Name="" ID="{4FBAF251-6641-4001-B5D4-F8F4F619831C}" ShortID="188234446">
+						<Action Name="" ID="{65E677B0-D5C2-4A4E-9EE7-F1C1CA4BEF96}" ShortID="555499414">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="AMB_Alarm" ID="{24841D3A-A584-4585-A543-3B6AAD9B2E75}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
