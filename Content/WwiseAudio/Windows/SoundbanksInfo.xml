@@ -42,9 +42,10 @@
 				<Event Id="1444205428" Name="Play_StartGame" ObjectPath="\Events\Default Work Unit\Menu\Play_StartGame"/>
 				<Event Id="969466560" Name="Play_teleportAlien" ObjectPath="\Events\Default Work Unit\Event_character\Play_teleportAlien"/>
 				<Event Id="1836332689" Name="Play_ToolsEvent" ObjectPath="\Events\Default Work Unit\Event_character\tools\Play_ToolsEvent"/>
+				<Event Id="3348509750" Name="Stop_AMB_Alarm" ObjectPath="\Events\Default Work Unit\Stop_AMB_Alarm"/>
 				<Event Id="1437717384" Name="Stop_Electricity_loop" ObjectPath="\Events\Default Work Unit\Event_AMB\Stop_Electricity_loop"/>
 				<Event Id="46816298" Name="Stop_SFX_faille_loop" ObjectPath="\Events\Default Work Unit\Event Faille and fire\Stop_SFX_faille_loop"/>
-				<Event Id="4165028173" Name="Stop_SFX_Fire_loop" ObjectPath="\Events\Default Work Unit\Stop_SFX_Fire_loop"/>
+				<Event Id="4165028173" Name="Stop_SFX_Fire_loop" ObjectPath="\Events\Default Work Unit\Event_AMB\Stop_SFX_Fire_loop"/>
 				<Event Id="3706193614" Name="Stop_teleportAlien" ObjectPath="\Events\Default Work Unit\Event_character\Stop_teleportAlien"/>
 				<Event Id="4247771906" Name="Switch_Play_Tools" ObjectPath="\Events\Default Work Unit\Event_character\tools\Switch_Play_Tools"/>
 				<Event Id="3117655700" Name="Switch_Stop_Tools" ObjectPath="\Events\Default Work Unit\Event_character\tools\Switch_Stop_Tools"/>
@@ -69,10 +70,6 @@
 				<File Id="145488717" Language="SFX">
 					<ShortName>music menu.wav</ShortName>
 					<Path>SFX\music menu_D79FB2B7.wem</Path>
-				</File>
-				<File Id="162790399" Language="SFX">
-					<ShortName>electricity-002.wav</ShortName>
-					<Path>SFX\electricity-002_C9F933B2.wem</Path>
 				</File>
 				<File Id="167121790" Language="SFX">
 					<ShortName>BT HUMAN Fart Arm Pit-02.wav</ShortName>
@@ -105,10 +102,6 @@
 				<File Id="199485040" Language="SFX">
 					<ShortName>HUI_StartButton.wav</ShortName>
 					<Path>SFX\HUI_StartButton_10C4C929.wem</Path>
-				</File>
-				<File Id="210116033" Language="SFX">
-					<ShortName>Amb_cabine.wav</ShortName>
-					<Path>SFX\Amb_cabine_710680D1.wem</Path>
 				</File>
 				<File Id="230481105" Language="SFX">
 					<ShortName>SFX_Clef_01.wav</ShortName>
@@ -150,10 +143,6 @@
 					<ShortName>MACK Fire Burn Medium Blaze-03.wav</ShortName>
 					<Path>SFX\MACK Fire Burn Medium Blaze-03_D79FB2B7.wem</Path>
 				</File>
-				<File Id="525450622" Language="SFX">
-					<ShortName>Amb_Machine.wav</ShortName>
-					<Path>SFX\Amb_Machine_053DED85.wem</Path>
-				</File>
 				<File Id="529657217" Language="SFX">
 					<ShortName>MUI SELECT DIGITAL Beeper_01.wav</ShortName>
 					<Path>SFX\MUI SELECT DIGITAL Beeper_01_10C4C929.wem</Path>
@@ -165,10 +154,6 @@
 				<File Id="569167608" Language="SFX">
 					<ShortName>SF-DS Ambience Spaceship Rumble 02-01.L.wav</ShortName>
 					<Path>SFX\SF-DS Ambience Spaceship Rumble 02-01.L_D79FB2B7.wem</Path>
-				</File>
-				<File Id="583382201" Language="SFX">
-					<ShortName>electricity-003.wav</ShortName>
-					<Path>SFX\electricity-003_FE5101B1.wem</Path>
 				</File>
 				<File Id="609514943" Language="SFX">
 					<ShortName>SFX_Processeur.wav</ShortName>
@@ -182,17 +167,9 @@
 					<ShortName>SFX_C02_OS.wav</ShortName>
 					<Path>SFX\SFX_C02_OS_10C4C929.wem</Path>
 				</File>
-				<File Id="636743273" Language="SFX">
-					<ShortName>Amb_computer02.wav</ShortName>
-					<Path>SFX\Amb_computer02_D79FB2B7.wem</Path>
-				</File>
 				<File Id="678629636" Language="SFX">
 					<ShortName>Kick02.wav</ShortName>
 					<Path>SFX\Kick02_D79FB2B7.wem</Path>
-				</File>
-				<File Id="706293368" Language="SFX">
-					<ShortName>Amb_computer.wav</ShortName>
-					<Path>SFX\Amb_computer_36CFB8C7.wem</Path>
 				</File>
 				<File Id="740404754" Language="SFX">
 					<ShortName>nappe_01.wav</ShortName>
@@ -241,10 +218,6 @@
 				<File Id="891603908" Language="SFX">
 					<ShortName>SFX_Batterie_03.wav</ShortName>
 					<Path>SFX\SFX_Batterie_03_10C4C929.wem</Path>
-				</File>
-				<File Id="934122160" Language="SFX">
-					<ShortName>electricity-001.wav</ShortName>
-					<Path>SFX\electricity-001_3DE9FE1D.wem</Path>
 				</File>
 				<File Id="1034194567" Language="SFX">
 					<ShortName>SFX_Launch_01.wav</ShortName>
