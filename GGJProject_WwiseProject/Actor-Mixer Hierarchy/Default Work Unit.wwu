@@ -927,6 +927,11 @@
 								<Sound Name="cabine" ID="{A093FBA4-A6A9-417E-ABE1-37A6C338157C}" ShortID="832743927">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -1028,7 +1033,7 @@
 																	<PointList>
 																		<Point>
 																			<XPos>0</XPos>
-																			<YPos>-0</YPos>
+																			<YPos>0</YPos>
 																			<Flags>5</Flags>
 																			<SegmentShape>Exp1</SegmentShape>
 																		</Point>
@@ -1073,6 +1078,11 @@
 								<Sound Name="machine" ID="{229D0D12-9D9C-4016-B3CB-9726385EF0E5}" ShortID="797710286">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -1129,6 +1139,11 @@
 								</Sound>
 								<Sound Name="computer" ID="{9D4DF69B-BD8F-4CB7-95BA-1EC9C47D007E}" ShortID="209063858">
 									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -1235,7 +1250,7 @@
 																	<PointList>
 																		<Point>
 																			<XPos>0</XPos>
-																			<YPos>-0</YPos>
+																			<YPos>0</YPos>
 																			<Flags>5</Flags>
 																			<SegmentShape>Exp1</SegmentShape>
 																		</Point>
@@ -1278,6 +1293,11 @@
 								</Sound>
 								<Sound Name="computer02" ID="{3E5C287B-0F3C-466C-82E5-4A7558F4C7B0}" ShortID="942179566">
 									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -1384,7 +1404,7 @@
 																	<PointList>
 																		<Point>
 																			<XPos>0</XPos>
-																			<YPos>-0</YPos>
+																			<YPos>0</YPos>
 																			<Flags>5</Flags>
 																			<SegmentShape>Exp1</SegmentShape>
 																		</Point>
@@ -1426,6 +1446,11 @@
 						<RandomSequenceContainer Name="Electricity" ID="{361F0622-F570-43D3-B2B7-68525BF9AB48}" ShortID="874666660">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
@@ -1535,9 +1560,10 @@
 										<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
 										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-5</Value>
+												<Value>-13</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1580,6 +1606,7 @@
 										<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
 										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
 										<Property Name="MaxSoundPerInstance" Type="int16">
 											<ValueList>
 												<Value>4</Value>
@@ -1587,7 +1614,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-7</Value>
+												<Value>-19</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
