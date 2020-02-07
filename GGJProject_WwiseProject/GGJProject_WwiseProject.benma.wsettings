@@ -73,7 +73,7 @@
 				<Property Name="Interactive Music\x64_{87DF17E6-EC61-4F96-AC80-44DB8DBEDCC8} - SegmentEditorZoomInfo" Type="string" Value="9fpVxUHb3T8AAAAAAADwPwAAAAAA2GlAAAAAAAAA8D8AAAAAAAiNQAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{AF12A66E-513F-4A3B-AEA2-EE5BEC366AD2} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAkGxAAAAAAAAA8D8AAAAAADyQQAAAAAAAAPA/"/>
 				<Property Name="Interactive Music\x64_{C36EE729-DCA7-4EB3-8D9F-D3BDA67319D5} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAkGxAAAAAAAAA8D8AAAAAAPB2QAAAAAAAAAAA"/>
-				<Property Name="Interactive Music\x64_{CE2C671F-AC9D-476D-8F4B-5CDC452D5EA0} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAqGRAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAD9A"/>
+				<Property Name="Interactive Music\x64_{CE2C671F-AC9D-476D-8F4B-5CDC452D5EA0} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAqGRAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/"/>
 				<Property Name="Interactive Music\x64_{F2CFDBC2-A4A1-47C7-B3AB-8AF2F99FFF89} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAHHtAAAAAAAAA8D8AAAAAAMCLQAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{F5BA9C43-FE46-4FE6-97A5-B234EBEC56D8} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAsG9AAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
@@ -98,6 +98,7 @@
 				<Property Name="Music Transition List\{5B7972CD-961C-4E1D-8176-18B3D54BEE64}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{5FA14660-BD66-4913-9358-E23CAED4CCDE}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{711895C0-509F-469A-958A-89AF8B804042}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{73B28F0F-50BB-41D2-B263-321C059BF2D7}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{762B0068-25A8-41AF-8C2C-AE23FF025DBA}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{80C63866-D49F-4614-9250-5A8EAF79364F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{86149F3F-3283-4C45-BEC4-AEDB28802357}\x64_Expand States" Type="string" Value=""/>

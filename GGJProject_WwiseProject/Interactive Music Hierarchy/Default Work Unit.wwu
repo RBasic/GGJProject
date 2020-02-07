@@ -4,10 +4,6 @@
 		<WorkUnit Name="Default Work Unit" ID="{BB4E3DED-AD5C-4548-AA0B-80E02C0C1DD0}" PersistMode="Standalone">
 			<ChildrenList>
 				<MusicSwitchContainer Name="music_switch" ID="{34CF7E47-6F98-41A6-91F1-7C08850DE716}" ShortID="4999760">
-					<PropertyList>
-						<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
-						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
-					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{93923C9A-6042-42B4-B851-437635C9CB50}"/>
@@ -743,6 +739,7 @@
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{85820320-FA6B-482A-BF1E-1ACF9F836250}" ShortID="421850994">
 									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
 										<Property Name="PlayMode" Type="int16" Value="2"/>
 									</PropertyList>
 									<ChildrenList>
@@ -759,6 +756,13 @@
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
 											<SegmentRef Name="music02" ID="{0AB50829-F93A-4F1F-8F24-A8F1563575CD}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{A4DFD948-95AB-409F-8357-C4BD1493D7DF}" ShortID="871932484">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Music03" ID="{744FAD05-5568-4B3F-B083-E6DD1E7F003C}"/>
 										</MusicPlaylistItem>
 									</ChildrenList>
 								</MusicPlaylistItem>
@@ -931,9 +935,6 @@
 							</Playlist>
 						</MusicPlaylistContainer>
 					</ChildrenList>
-					<PositioningInfo>
-						<Panner Name="" ID="{3FD7B162-154C-48A0-9AD7-99AA7929707C}"/>
-					</PositioningInfo>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{9B1285BE-B688-49FD-90FB-97FE8E536B6D}">
 							<PropertyList>
