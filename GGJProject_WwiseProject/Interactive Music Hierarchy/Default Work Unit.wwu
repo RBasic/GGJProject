@@ -37,7 +37,7 @@
 										<Property Name="EndPosition" Type="Real64" Value="14325.2647503782"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-4</Value>
+												<Value>-6</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -74,17 +74,18 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>0.50284</XPos>
+																		<XPos>59.846</XPos>
 																		<YPos>-200</YPos>
 																		<Flags>0</Flags>
+																		<SegmentShape>Exp2</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>0.50384</XPos>
-																		<YPos>-0.36485</YPos>
+																		<XPos>70.404</XPos>
+																		<YPos>0</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>1</XPos>
+																		<XPos>100</XPos>
 																		<YPos>0</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -185,12 +186,12 @@
 																		<SegmentShape>Exp2</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>0.3608</XPos>
+																		<XPos>36.08</XPos>
 																		<YPos>0.09095</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>1</XPos>
+																		<XPos>100</XPos>
 																		<YPos>0</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -256,13 +257,13 @@
 																		<SegmentShape>Exp1</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>0.19318</XPos>
-																		<YPos>-0.12015</YPos>
+																		<XPos>19.318</XPos>
+																		<YPos>0</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Log1</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>1</XPos>
+																		<XPos>100</XPos>
 																		<YPos>0</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -356,17 +357,18 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>0.50142</XPos>
+																		<XPos>60</XPos>
 																		<YPos>-200</YPos>
 																		<Flags>0</Flags>
+																		<SegmentShape>Exp1</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>0.50242</XPos>
+																		<XPos>70.162</XPos>
 																		<YPos>0</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>1</XPos>
+																		<XPos>100</XPos>
 																		<YPos>0</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -432,12 +434,18 @@
 																		<SegmentShape>Exp3</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>0.39915</XPos>
+																		<XPos>19.92</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Exp2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>39.915</XPos>
 																		<YPos>0</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>1</XPos>
+																		<XPos>100</XPos>
 																		<YPos>0</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -517,6 +525,47 @@
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="percu_01" ID="{4A5409F2-F743-4EEC-9458-92E8C8B6EBD7}" ShortID="130697806">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{F21A409C-DFD1-417A-B8C5-153698934FFE}" ShortID="895236623">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Time" ID="{9422A628-FD4E-470B-9CF6-0D3F02296DFC}" WorkUnitID="{06FB20AB-4271-42E5-9959-A14233717056}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{D589AC3E-DB43-408B-B957-E7ECFF38E08D}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>29.681</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Exp1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>40.239</XPos>
+																		<YPos>-0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56488E5C-5ABB-430F-BF88-69602EBD2065}"/>
@@ -567,7 +616,7 @@
 										<Property Name="EndPosition" Type="Real64" Value="14990.9228441755"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>-13</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -581,6 +630,47 @@
 									</ReferenceList>
 									<ChildrenList>
 										<MusicTrack Name="bass" ID="{5B7972CD-961C-4E1D-8176-18B3D54BEE64}" ShortID="1043491527">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{17022D09-4436-4332-82DC-1763083A8E80}" ShortID="518003715">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Time" ID="{9422A628-FD4E-470B-9CF6-0D3F02296DFC}" WorkUnitID="{06FB20AB-4271-42E5-9959-A14233717056}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{76457251-3A16-4C6A-83BA-AC334CEAE587}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>60</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Exp1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>69.621</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56488E5C-5ABB-430F-BF88-69602EBD2065}"/>
@@ -651,6 +741,47 @@
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="guitare" ID="{008D221C-506E-45FA-84BF-CE60F55122AA}" ShortID="971034108">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{43991714-0A4C-4780-B838-467933880607}" ShortID="102192085">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Time" ID="{9422A628-FD4E-470B-9CF6-0D3F02296DFC}" WorkUnitID="{06FB20AB-4271-42E5-9959-A14233717056}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{34980CFF-6E2B-4E6C-A9B1-8EFCD8E33F08}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>40</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Exp2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>50</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56488E5C-5ABB-430F-BF88-69602EBD2065}"/>
@@ -686,6 +817,47 @@
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="pad1" ID="{8DF1950B-2DE4-4103-A71A-53D406AC4377}" ShortID="376610383">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{A007BCFF-44A0-4D70-82A2-33ECDEEDBFC2}" ShortID="975974946">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Time" ID="{9422A628-FD4E-470B-9CF6-0D3F02296DFC}" WorkUnitID="{06FB20AB-4271-42E5-9959-A14233717056}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{8D07A690-0B75-4655-97B4-ED6AA930E161}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>9.861</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Exp2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>20</XPos>
+																		<YPos>-0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56488E5C-5ABB-430F-BF88-69602EBD2065}"/>
