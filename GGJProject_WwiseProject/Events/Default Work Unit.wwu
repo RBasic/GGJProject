@@ -279,6 +279,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Event_Play_Breche" ID="{D672DE5F-7C2B-4C18-AC70-20BF1A42E3DB}">
+					<ChildrenList>
+						<Action Name="" ID="{3C1BDA11-92F6-458B-BF94-BDC40283761E}" ShortID="808013114">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="faille" ID="{B8A462E9-268D-4907-8B08-EA7944B934E2}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Reparation" ID="{16738A6D-A346-411A-9035-5C7B9D63CAFC}">
+					<ChildrenList>
+						<Action Name="" ID="{FF1C920B-8FB3-45F4-AD4C-15A1A901203A}" ShortID="465100133">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Reparation" ID="{6B6BB0C4-8357-4645-AB49-5E74E6DE3B8B}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="event_Play_fireloop" ID="{4DCCF302-5A7A-4FC4-8994-2B1437860B20}">
+					<ChildrenList>
+						<Action Name="" ID="{36C1A7F8-9DB2-48ED-B0FD-0A7902C6DCC5}" ShortID="570191277">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fireloop" ID="{A6288B11-EA87-4D02-9BD6-7AB9C8DD8676}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
