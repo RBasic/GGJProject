@@ -235,6 +235,50 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Amb_cabine" ID="{97A12479-C4CE-4E0D-AD71-3CC9EF8AD12A}">
+					<ChildrenList>
+						<Action Name="" ID="{86260C2D-3686-4FEC-A3A4-CA8707C80C43}" ShortID="844413524">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_cabine" ID="{715B7760-D8B3-47E3-9E44-E334A2A72728}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Amb_computer" ID="{D0524268-D078-4F80-8472-EAB8379FF567}">
+					<ChildrenList>
+						<Action Name="" ID="{2A0B7A03-D811-43AA-9556-2824900A3A13}" ShortID="576416187">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_computer" ID="{564C125B-057E-474E-99DD-C68EEFB1E032}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Amb_computer02" ID="{522BE249-0793-4000-8882-B34518B5A9B8}">
+					<ChildrenList>
+						<Action Name="" ID="{7A54383A-7AD7-4278-9B06-01321B0DE942}" ShortID="820863148">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_computer02" ID="{6685E631-864E-4970-8B8B-ED15EE257EC9}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Amb_Machine" ID="{A7E11AD6-AF99-435F-90C6-BA905AE5983F}">
+					<ChildrenList>
+						<Action Name="" ID="{C86A0953-F158-4ED8-BBCD-6F1890A4E268}" ShortID="530863957">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_Machine" ID="{D3EB5B54-B79C-40E0-8176-8AAABE8A8CBB}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

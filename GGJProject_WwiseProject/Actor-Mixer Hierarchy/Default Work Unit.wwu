@@ -160,7 +160,7 @@
 												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-5</Value>
+														<Value>-11</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -263,6 +263,13 @@
 								<Folder Name="cornichette" ID="{9B0A9016-F794-416A-AF7D-F54FF745DB71}" ShortID="155041425">
 									<ChildrenList>
 										<Sound Name="SFX_speedEffect_02" ID="{EFEC4CAE-C589-494A-BC8E-6F0B276E3768}" ShortID="218967052">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{93923C9A-6042-42B4-B851-437635C9CB50}"/>
@@ -403,6 +410,16 @@
 										<Sound Name="AMB_spaceship" ID="{4FF1F99A-FAC3-497E-8E87-56016CF49951}" ShortID="388507829">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-14</Value>
@@ -427,6 +444,178 @@
 												<ActiveSource Name="SF-DS Ambience Spaceship Rumble 02-01_L" ID="{AA005716-C08C-4319-853A-847166D8F09A}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<ActorMixer Name="Amb_Positionning" ID="{B2E1FC70-278F-4D9F-AF1C-EDCDEE1C1825}" ShortID="275822330">
+											<PropertyList>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{93923C9A-6042-42B4-B851-437635C9CB50}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56488E5C-5ABB-430F-BF88-69602EBD2065}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Amb_cabine" ID="{715B7760-D8B3-47E3-9E44-E334A2A72728}" ShortID="988630074">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="MaxSoundPerInstance" Type="int16">
+															<ValueList>
+																<Value>1</Value>
+															</ValueList>
+														</Property>
+														<Property Name="UseMaxSoundPerInstance" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Distance" ID="{776BFE4B-B09C-46A8-9530-3092D72FBA45}" WorkUnitID="{231C4243-2C40-466D-83BB-FE2DC45C69BF}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{93923C9A-6042-42B4-B851-437635C9CB50}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master_SFX" ID="{498DB7B2-39C6-4320-B2A7-000481046DB9}" WorkUnitID="{56488E5C-5ABB-430F-BF88-69602EBD2065}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_cabine" ID="{63FC178E-C55A-4E00-9D54-162506907A7F}" ShortID="44969261">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="12.0150037509377"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Amb_cabine.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_cabine" ID="{63FC178E-C55A-4E00-9D54-162506907A7F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_Machine" ID="{D3EB5B54-B79C-40E0-8176-8AAABE8A8CBB}" ShortID="612425450">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="MaxSoundPerInstance" Type="int16">
+															<ValueList>
+																<Value>1</Value>
+															</ValueList>
+														</Property>
+														<Property Name="UseMaxSoundPerInstance" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{93923C9A-6042-42B4-B851-437635C9CB50}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master_SFX" ID="{498DB7B2-39C6-4320-B2A7-000481046DB9}" WorkUnitID="{56488E5C-5ABB-430F-BF88-69602EBD2065}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_Machine" ID="{BB672622-3EB7-41F9-A145-05098435435E}" ShortID="992128957">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="22.4774943735934"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Amb_Machine.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_Machine" ID="{BB672622-3EB7-41F9-A145-05098435435E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_computer02" ID="{6685E631-864E-4970-8B8B-ED15EE257EC9}" ShortID="1036851073">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="MaxSoundPerInstance" Type="int16">
+															<ValueList>
+																<Value>1</Value>
+															</ValueList>
+														</Property>
+														<Property Name="UseMaxSoundPerInstance" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{93923C9A-6042-42B4-B851-437635C9CB50}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master_SFX" ID="{498DB7B2-39C6-4320-B2A7-000481046DB9}" WorkUnitID="{56488E5C-5ABB-430F-BF88-69602EBD2065}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_computer02" ID="{51780A4B-9DEA-4398-97CD-4F3CEA3C69FC}" ShortID="447217981">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="11.9954988747187"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Amb_computer02.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_computer02" ID="{51780A4B-9DEA-4398-97CD-4F3CEA3C69FC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Amb_computer" ID="{564C125B-057E-474E-99DD-C68EEFB1E032}" ShortID="894340994">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="MaxSoundPerInstance" Type="int16">
+															<ValueList>
+																<Value>1</Value>
+															</ValueList>
+														</Property>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="UseMaxSoundPerInstance" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Distance" ID="{776BFE4B-B09C-46A8-9530-3092D72FBA45}" WorkUnitID="{231C4243-2C40-466D-83BB-FE2DC45C69BF}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{93923C9A-6042-42B4-B851-437635C9CB50}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master_SFX" ID="{498DB7B2-39C6-4320-B2A7-000481046DB9}" WorkUnitID="{56488E5C-5ABB-430F-BF88-69602EBD2065}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Amb_computer" ID="{4D86ECB0-7F1D-4F41-8A50-D8FC226190DB}" ShortID="265538650">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="12.0052513128282"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Amb_computer.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Amb_computer" ID="{4D86ECB0-7F1D-4F41-8A50-D8FC226190DB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</ActorMixer>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>
@@ -907,7 +1096,7 @@
 															<PropertyList>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.103255115654037"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimEnd" Type="Real64" Value="3.99597297581126"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.90056803614097"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>SFX_Radar.wav</AudioFile>
