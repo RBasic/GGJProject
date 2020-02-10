@@ -21,30 +21,20 @@
 			<ShortName>soundbank</ShortName>
 			<Path>soundbank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2668492475" Name="event_faille" ObjectPath="\Events\Default Work Unit\Event Faille and fire\event_faille"/>
 				<Event Id="3866585168" Name="Play_AMB_Alarm" ObjectPath="\Events\Default Work Unit\Play_AMB_Alarm"/>
 				<Event Id="3213331111" Name="Play_AMB_spaceship" ObjectPath="\Events\Default Work Unit\Event_AMB\Play_AMB_spaceship"/>
-				<Event Id="3721978706" Name="Play_cabine" ObjectPath="\Events\Default Work Unit\Event_AMB\Play_cabine"/>
 				<Event Id="549560981" Name="Play_Close_Door_SFX" ObjectPath="\Events\Default Work Unit\Event_AMB\Play_Close_Door_SFX"/>
-				<Event Id="1984956505" Name="Play_computer" ObjectPath="\Events\Default Work Unit\Event_AMB\Play_computer"/>
-				<Event Id="25161603" Name="Play_computer02" ObjectPath="\Events\Default Work Unit\Event_AMB\Play_computer02"/>
-				<Event Id="3773288514" Name="Play_Electricity_loop" ObjectPath="\Events\Default Work Unit\Event_AMB\Play_Electricity_loop"/>
-				<Event Id="1427483701" Name="Play_machine" ObjectPath="\Events\Default Work Unit\Event_AMB\Play_machine"/>
 				<Event Id="1228139402" Name="Play_music_switch" ObjectPath="\Events\Default Work Unit\Music\Play_music_switch"/>
 				<Event Id="3150045337" Name="Play_Open_Door_SFX" ObjectPath="\Events\Default Work Unit\Event_AMB\Play_Open_Door_SFX"/>
 				<Event Id="4091125625" Name="Play_Rnd_Fart_eggs" ObjectPath="\Events\Default Work Unit\Event_character\Play_Rnd_Fart_eggs"/>
 				<Event Id="1835716282" Name="Play_Rnd_Launch_object" ObjectPath="\Events\Default Work Unit\Event_character\Play_Rnd_Launch_object"/>
 				<Event Id="3420737605" Name="Play_RND_pipKey_Menu" ObjectPath="\Events\Default Work Unit\Menu\Play_RND_pipKey_Menu"/>
-				<Event Id="3908763747" Name="Play_SFX_Fire_loop" ObjectPath="\Events\Default Work Unit\Event Faille and fire\Play_SFX_Fire_loop"/>
 				<Event Id="2464809808" Name="Play_SFX_Grab" ObjectPath="\Events\Default Work Unit\Event_character\Play_SFX_Grab"/>
 				<Event Id="2766333476" Name="Play_SFX_speedEffect_cornichon" ObjectPath="\Events\Default Work Unit\Event_character\Play_SFX_speedEffect_cornichon"/>
 				<Event Id="906404660" Name="Play_start_menu" ObjectPath="\Events\Default Work Unit\Menu\Play_start_menu"/>
 				<Event Id="1444205428" Name="Play_StartGame" ObjectPath="\Events\Default Work Unit\Menu\Play_StartGame"/>
 				<Event Id="969466560" Name="Play_teleportAlien" ObjectPath="\Events\Default Work Unit\Event_character\Play_teleportAlien"/>
 				<Event Id="1836332689" Name="Play_ToolsEvent" ObjectPath="\Events\Default Work Unit\Event_character\tools\Play_ToolsEvent"/>
-				<Event Id="1437717384" Name="Stop_Electricity_loop" ObjectPath="\Events\Default Work Unit\Event_AMB\Stop_Electricity_loop"/>
-				<Event Id="46816298" Name="Stop_SFX_faille_loop" ObjectPath="\Events\Default Work Unit\Event Faille and fire\Stop_SFX_faille_loop"/>
-				<Event Id="4165028173" Name="Stop_SFX_Fire_loop" ObjectPath="\Events\Default Work Unit\Event_AMB\Stop_SFX_Fire_loop"/>
 				<Event Id="3706193614" Name="Stop_teleportAlien" ObjectPath="\Events\Default Work Unit\Event_character\Stop_teleportAlien"/>
 				<Event Id="4247771906" Name="Switch_Play_Tools" ObjectPath="\Events\Default Work Unit\Event_character\tools\Switch_Play_Tools"/>
 				<Event Id="3117655700" Name="Switch_Stop_Tools" ObjectPath="\Events\Default Work Unit\Event_character\tools\Switch_Stop_Tools"/>
@@ -138,10 +128,6 @@
 					<ShortName>BT HUMAN Fart Arm Pit-03.wav</ShortName>
 					<Path>SFX\BT HUMAN Fart Arm Pit-03_10C4C929.wem</Path>
 				</File>
-				<File Id="480003114" Language="SFX">
-					<ShortName>MACK Fire Burn Medium Blaze-03.wav</ShortName>
-					<Path>SFX\MACK Fire Burn Medium Blaze-03_D79FB2B7.wem</Path>
-				</File>
 				<File Id="529657217" Language="SFX">
 					<ShortName>MUI SELECT DIGITAL Beeper_01.wav</ShortName>
 					<Path>SFX\MUI SELECT DIGITAL Beeper_01_10C4C929.wem</Path>
@@ -185,10 +171,6 @@
 				<File Id="777022417" Language="SFX">
 					<ShortName>SFX_Batterie_01.wav</ShortName>
 					<Path>SFX\SFX_Batterie_01_10C4C929.wem</Path>
-				</File>
-				<File Id="783310804" Language="SFX">
-					<ShortName>faille.wav</ShortName>
-					<Path>SFX\faille_AACC6309.wem</Path>
 				</File>
 				<File Id="787040562" Language="SFX">
 					<ShortName>SFX_Launch_04.wav</ShortName>
