@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{6148159D-0066-4404-AA5B-49FDD68256FF}" SchemaVersion="94">
 	<MixingSessions>
-		<WorkUnit Name="Default Work Unit" ID="{6148159D-0066-4404-AA5B-49FDD68256FF}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{6148159D-0066-4404-AA5B-49FDD68256FF}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="mixer" ID="{2FB4C160-3D21-4A81-8E6E-6BE76D9D1CAA}">
+					<ObjectList>
+						<ObjectRef Name="Amb_Positionning" ID="{B2E1FC70-278F-4D9F-AF1C-EDCDEE1C1825}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+						<ObjectRef Name="AMB_Alarm" ID="{24841D3A-A584-4585-A543-3B6AAD9B2E75}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+						<ObjectRef Name="music01" ID="{CE2C671F-AC9D-476D-8F4B-5CDC452D5EA0}" WorkUnitID="{BB4E3DED-AD5C-4548-AA0B-80E02C0C1DD0}"/>
+						<ObjectRef Name="music02" ID="{0AB50829-F93A-4F1F-8F24-A8F1563575CD}" WorkUnitID="{BB4E3DED-AD5C-4548-AA0B-80E02C0C1DD0}"/>
+						<ObjectRef Name="Music03" ID="{744FAD05-5568-4B3F-B083-E6DD1E7F003C}" WorkUnitID="{BB4E3DED-AD5C-4548-AA0B-80E02C0C1DD0}"/>
+						<ObjectRef Name="Reparation" ID="{6B6BB0C4-8357-4645-AB49-5E74E6DE3B8B}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+						<ObjectRef Name="faille" ID="{B8A462E9-268D-4907-8B08-EA7944B934E2}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+						<ObjectRef Name="fireloop" ID="{A6288B11-EA87-4D02-9BD6-7AB9C8DD8676}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
 	</MixingSessions>
 </WwiseDocument>
