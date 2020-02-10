@@ -4,19 +4,21 @@
 		<WorkUnit Name="Default Work Unit" ID="{BB4E3DED-AD5C-4548-AA0B-80E02C0C1DD0}" PersistMode="Standalone">
 			<ChildrenList>
 				<MusicSwitchContainer Name="music_switch" ID="{34CF7E47-6F98-41A6-91F1-7C08850DE716}" ShortID="4999760">
+					<PropertyList>
+						<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{93923C9A-6042-42B4-B851-437635C9CB50}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56488E5C-5ABB-430F-BF88-69602EBD2065}"/>
+							<ObjectRef Name="Master_Musique" ID="{5A54F69F-5704-4EE7-963F-1C6CC30EBBEC}" WorkUnitID="{56488E5C-5ABB-430F-BF88-69602EBD2065}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<MusicPlaylistContainer Name="Music_RND" ID="{D105E101-9943-4271-90F5-A31E0F7E8B52}" ShortID="606603278">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
