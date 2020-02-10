@@ -354,6 +354,16 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="event_end_stopall" ID="{C3DED617-6BF5-408E-A39B-201BD9774464}">
+					<ChildrenList>
+						<Action Name="" ID="{C41438B6-8E6D-424C-A5E2-86F1AC5C59DF}" ShortID="398956246">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
