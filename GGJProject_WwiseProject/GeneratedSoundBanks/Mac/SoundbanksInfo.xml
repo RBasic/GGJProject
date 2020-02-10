@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="134">
 	<RootPaths>
-		<ProjectRoot>D:\GGJProject\GGJProject_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>D:\GGJProject\GGJProject_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>D:\GGJProject\GGJProject_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\GGJProject\GGJProject_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -21,29 +21,31 @@
 			<ShortName>soundbank</ShortName>
 			<Path>soundbank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2668492475" Name="event_faille" ObjectPath="\Events\Default Work Unit\Event Faille and fire\event_faille"/>
+				<Event Id="3741613782" Name="Event_Play_Breche" ObjectPath="\Events\Default Work Unit\Event_Play_Breche"/>
+				<Event Id="2605404333" Name="event_Play_fireloop" ObjectPath="\Events\Default Work Unit\event_Play_fireloop"/>
+				<Event Id="3866585168" Name="Play_AMB_Alarm" ObjectPath="\Events\Default Work Unit\Play_AMB_Alarm"/>
+				<Event Id="1037150341" Name="Play_Amb_cabine" ObjectPath="\Events\Default Work Unit\Play_Amb_cabine"/>
+				<Event Id="1178128302" Name="Play_Amb_computer" ObjectPath="\Events\Default Work Unit\Play_Amb_computer"/>
+				<Event Id="1134690588" Name="Play_Amb_computer02" ObjectPath="\Events\Default Work Unit\Play_Amb_computer02"/>
+				<Event Id="952831920" Name="Play_Amb_Machine" ObjectPath="\Events\Default Work Unit\Play_Amb_Machine"/>
 				<Event Id="3213331111" Name="Play_AMB_spaceship" ObjectPath="\Events\Default Work Unit\Event_AMB\Play_AMB_spaceship"/>
-				<Event Id="3721978706" Name="Play_cabine" ObjectPath="\Events\Default Work Unit\Event_AMB\Play_cabine"/>
 				<Event Id="549560981" Name="Play_Close_Door_SFX" ObjectPath="\Events\Default Work Unit\Event_AMB\Play_Close_Door_SFX"/>
-				<Event Id="1984956505" Name="Play_computer" ObjectPath="\Events\Default Work Unit\Event_AMB\Play_computer"/>
-				<Event Id="25161603" Name="Play_computer02" ObjectPath="\Events\Default Work Unit\Event_AMB\Play_computer02"/>
-				<Event Id="3773288514" Name="Play_Electricity_loop" ObjectPath="\Events\Default Work Unit\Event_AMB\Play_Electricity_loop"/>
-				<Event Id="1427483701" Name="Play_machine" ObjectPath="\Events\Default Work Unit\Event_AMB\Play_machine"/>
 				<Event Id="1228139402" Name="Play_music_switch" ObjectPath="\Events\Default Work Unit\Music\Play_music_switch"/>
 				<Event Id="3150045337" Name="Play_Open_Door_SFX" ObjectPath="\Events\Default Work Unit\Event_AMB\Play_Open_Door_SFX"/>
+				<Event Id="2028669661" Name="Play_Reparation" ObjectPath="\Events\Default Work Unit\Play_Reparation"/>
 				<Event Id="4091125625" Name="Play_Rnd_Fart_eggs" ObjectPath="\Events\Default Work Unit\Event_character\Play_Rnd_Fart_eggs"/>
 				<Event Id="1835716282" Name="Play_Rnd_Launch_object" ObjectPath="\Events\Default Work Unit\Event_character\Play_Rnd_Launch_object"/>
 				<Event Id="3420737605" Name="Play_RND_pipKey_Menu" ObjectPath="\Events\Default Work Unit\Menu\Play_RND_pipKey_Menu"/>
-				<Event Id="3908763747" Name="Play_SFX_Fire_loop" ObjectPath="\Events\Default Work Unit\Event Faille and fire\Play_SFX_Fire_loop"/>
 				<Event Id="2464809808" Name="Play_SFX_Grab" ObjectPath="\Events\Default Work Unit\Event_character\Play_SFX_Grab"/>
 				<Event Id="2766333476" Name="Play_SFX_speedEffect_cornichon" ObjectPath="\Events\Default Work Unit\Event_character\Play_SFX_speedEffect_cornichon"/>
 				<Event Id="906404660" Name="Play_start_menu" ObjectPath="\Events\Default Work Unit\Menu\Play_start_menu"/>
 				<Event Id="1444205428" Name="Play_StartGame" ObjectPath="\Events\Default Work Unit\Menu\Play_StartGame"/>
 				<Event Id="969466560" Name="Play_teleportAlien" ObjectPath="\Events\Default Work Unit\Event_character\Play_teleportAlien"/>
 				<Event Id="1836332689" Name="Play_ToolsEvent" ObjectPath="\Events\Default Work Unit\Event_character\tools\Play_ToolsEvent"/>
-				<Event Id="1437717384" Name="Stop_Electricity_loop" ObjectPath="\Events\Default Work Unit\Event_AMB\Stop_Electricity_loop"/>
-				<Event Id="46816298" Name="Stop_SFX_faille_loop" ObjectPath="\Events\Default Work Unit\Event Faille and fire\Stop_SFX_faille_loop"/>
-				<Event Id="4165028173" Name="Stop_SFX_Fire_loop" ObjectPath="\Events\Default Work Unit\Stop_SFX_Fire_loop"/>
+				<Event Id="3348509750" Name="Stop_AMB_Alarm" ObjectPath="\Events\Default Work Unit\Stop_AMB_Alarm"/>
+				<Event Id="836553957" Name="Stop_faille" ObjectPath="\Events\Default Work Unit\Stop_faille"/>
+				<Event Id="2699663926" Name="Stop_fireloop" ObjectPath="\Events\Default Work Unit\Stop_fireloop"/>
+				<Event Id="2906011555" Name="Stop_Reparation" ObjectPath="\Events\Default Work Unit\Stop_Reparation"/>
 				<Event Id="3706193614" Name="Stop_teleportAlien" ObjectPath="\Events\Default Work Unit\Event_character\Stop_teleportAlien"/>
 				<Event Id="4247771906" Name="Switch_Play_Tools" ObjectPath="\Events\Default Work Unit\Event_character\tools\Switch_Play_Tools"/>
 				<Event Id="3117655700" Name="Switch_Stop_Tools" ObjectPath="\Events\Default Work Unit\Event_character\tools\Switch_Stop_Tools"/>
@@ -51,11 +53,15 @@
 			<IncludedMemoryFiles>
 				<File Id="3869104" Language="SFX">
 					<ShortName>SFX_Radar.wav</ShortName>
-					<Path>SFX\SFX_Radar_D53E8938.wem</Path>
+					<Path>SFX\SFX_Radar_652306E5.wem</Path>
 				</File>
 				<File Id="39673602" Language="SFX">
 					<ShortName>percu_01.wav</ShortName>
 					<Path>SFX\percu_01_D79FB2B7.wem</Path>
+				</File>
+				<File Id="44969261" Language="SFX">
+					<ShortName>Amb_cabine.wav</ShortName>
+					<Path>SFX\Amb_cabine_5E0B74A4.wem</Path>
 				</File>
 				<File Id="96901645" Language="SFX">
 					<ShortName>nappe_02.wav</ShortName>
@@ -68,10 +74,6 @@
 				<File Id="145488717" Language="SFX">
 					<ShortName>music menu.wav</ShortName>
 					<Path>SFX\music menu_D79FB2B7.wem</Path>
-				</File>
-				<File Id="162790399" Language="SFX">
-					<ShortName>electricity-002.wav</ShortName>
-					<Path>SFX\electricity-002_C9F933B2.wem</Path>
 				</File>
 				<File Id="167121790" Language="SFX">
 					<ShortName>BT HUMAN Fart Arm Pit-02.wav</ShortName>
@@ -105,13 +107,13 @@
 					<ShortName>HUI_StartButton.wav</ShortName>
 					<Path>SFX\HUI_StartButton_10C4C929.wem</Path>
 				</File>
-				<File Id="210116033" Language="SFX">
-					<ShortName>Amb_cabine.wav</ShortName>
-					<Path>SFX\Amb_cabine_710680D1.wem</Path>
-				</File>
 				<File Id="230481105" Language="SFX">
 					<ShortName>SFX_Clef_01.wav</ShortName>
 					<Path>SFX\SFX_Clef_01_10C4C929.wem</Path>
+				</File>
+				<File Id="265538650" Language="SFX">
+					<ShortName>Amb_computer.wav</ShortName>
+					<Path>SFX\Amb_computer_710680D1.wem</Path>
 				</File>
 				<File Id="274256067" Language="SFX">
 					<ShortName>SFX_batterie_02.wav</ShortName>
@@ -137,6 +139,10 @@
 					<ShortName>Fer à souder_02.wav</ShortName>
 					<Path>SFX\Fer à souder_02_10C4C929.wem</Path>
 				</File>
+				<File Id="422795382" Language="SFX">
+					<ShortName>faille.wav</ShortName>
+					<Path>SFX\faille_E1BC38AC.wem</Path>
+				</File>
 				<File Id="429637118" Language="SFX">
 					<ShortName>CC-CK Guts Fall 01-03.wav</ShortName>
 					<Path>SFX\CC-CK Guts Fall 01-03_10C4C929.wem</Path>
@@ -145,13 +151,13 @@
 					<ShortName>BT HUMAN Fart Arm Pit-03.wav</ShortName>
 					<Path>SFX\BT HUMAN Fart Arm Pit-03_10C4C929.wem</Path>
 				</File>
-				<File Id="480003114" Language="SFX">
-					<ShortName>MACK Fire Burn Medium Blaze-03.wav</ShortName>
-					<Path>SFX\MACK Fire Burn Medium Blaze-03_D79FB2B7.wem</Path>
+				<File Id="447217981" Language="SFX">
+					<ShortName>Amb_computer02.wav</ShortName>
+					<Path>SFX\Amb_computer02_846A232B.wem</Path>
 				</File>
-				<File Id="525450622" Language="SFX">
-					<ShortName>Amb_Machine.wav</ShortName>
-					<Path>SFX\Amb_Machine_053DED85.wem</Path>
+				<File Id="496993311" Language="SFX">
+					<ShortName>fireloop.wav</ShortName>
+					<Path>SFX\fireloop_D79FB2B7.wem</Path>
 				</File>
 				<File Id="529657217" Language="SFX">
 					<ShortName>MUI SELECT DIGITAL Beeper_01.wav</ShortName>
@@ -165,29 +171,21 @@
 					<ShortName>SF-DS Ambience Spaceship Rumble 02-01.L.wav</ShortName>
 					<Path>SFX\SF-DS Ambience Spaceship Rumble 02-01.L_D79FB2B7.wem</Path>
 				</File>
-				<File Id="583382201" Language="SFX">
-					<ShortName>electricity-003.wav</ShortName>
-					<Path>SFX\electricity-003_FE5101B1.wem</Path>
-				</File>
 				<File Id="609514943" Language="SFX">
 					<ShortName>SFX_Processeur.wav</ShortName>
 					<Path>SFX\SFX_Processeur_10C4C929.wem</Path>
+				</File>
+				<File Id="629404521" Language="SFX">
+					<ShortName>Alarme.wav</ShortName>
+					<Path>SFX\Alarme_D79FB2B7.wem</Path>
 				</File>
 				<File Id="630576359" Language="SFX">
 					<ShortName>SFX_C02_OS.wav</ShortName>
 					<Path>SFX\SFX_C02_OS_10C4C929.wem</Path>
 				</File>
-				<File Id="636743273" Language="SFX">
-					<ShortName>Amb_computer02.wav</ShortName>
-					<Path>SFX\Amb_computer02_D79FB2B7.wem</Path>
-				</File>
 				<File Id="678629636" Language="SFX">
 					<ShortName>Kick02.wav</ShortName>
 					<Path>SFX\Kick02_D79FB2B7.wem</Path>
-				</File>
-				<File Id="706293368" Language="SFX">
-					<ShortName>Amb_computer.wav</ShortName>
-					<Path>SFX\Amb_computer_36CFB8C7.wem</Path>
 				</File>
 				<File Id="740404754" Language="SFX">
 					<ShortName>nappe_01.wav</ShortName>
@@ -201,13 +199,13 @@
 					<ShortName>guitare.wav</ShortName>
 					<Path>SFX\guitare_D79FB2B7.wem</Path>
 				</File>
+				<File Id="761843870" Language="SFX">
+					<ShortName>electricity-001.wav</ShortName>
+					<Path>SFX\electricity-001_295DACF2.wem</Path>
+				</File>
 				<File Id="777022417" Language="SFX">
 					<ShortName>SFX_Batterie_01.wav</ShortName>
 					<Path>SFX\SFX_Batterie_01_10C4C929.wem</Path>
-				</File>
-				<File Id="783310804" Language="SFX">
-					<ShortName>faille.wav</ShortName>
-					<Path>SFX\faille_300122FA.wem</Path>
 				</File>
 				<File Id="787040562" Language="SFX">
 					<ShortName>SFX_Launch_04.wav</ShortName>
@@ -237,13 +235,21 @@
 					<ShortName>SFX_Batterie_03.wav</ShortName>
 					<Path>SFX\SFX_Batterie_03_10C4C929.wem</Path>
 				</File>
-				<File Id="934122160" Language="SFX">
-					<ShortName>electricity-001.wav</ShortName>
-					<Path>SFX\electricity-001_3DE9FE1D.wem</Path>
+				<File Id="967326663" Language="SFX">
+					<ShortName>electricity-002.wav</ShortName>
+					<Path>SFX\electricity-002_5CA510DF.wem</Path>
+				</File>
+				<File Id="992128957" Language="SFX">
+					<ShortName>Amb_Machine.wav</ShortName>
+					<Path>SFX\Amb_Machine_7C794B93.wem</Path>
 				</File>
 				<File Id="1034194567" Language="SFX">
 					<ShortName>SFX_Launch_01.wav</ShortName>
 					<Path>SFX\SFX_Launch_01_10C4C929.wem</Path>
+				</File>
+				<File Id="1064534934" Language="SFX">
+					<ShortName>electricity-003.wav</ShortName>
+					<Path>SFX\electricity-003_71AF0249.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

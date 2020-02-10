@@ -1,19 +1,29 @@
 Event	ID	Name			Wwise Object Path	Notes
 	549560981	Play_Close_Door_SFX			\Default Work Unit\Event_AMB\Play_Close_Door_SFX	
+	836553957	Stop_faille			\Default Work Unit\Stop_faille	
 	906404660	Play_start_menu			\Default Work Unit\Menu\Play_start_menu	
+	952831920	Play_Amb_Machine			\Default Work Unit\Play_Amb_Machine	
 	969466560	Play_teleportAlien			\Default Work Unit\Event_character\Play_teleportAlien	
+	1037150341	Play_Amb_cabine			\Default Work Unit\Play_Amb_cabine	
+	1134690588	Play_Amb_computer02			\Default Work Unit\Play_Amb_computer02	
+	1178128302	Play_Amb_computer			\Default Work Unit\Play_Amb_computer	
 	1228139402	Play_music_switch			\Default Work Unit\Music\Play_music_switch	
 	1444205428	Play_StartGame			\Default Work Unit\Menu\Play_StartGame	
 	1835716282	Play_Rnd_Launch_object			\Default Work Unit\Event_character\Play_Rnd_Launch_object	
 	1836332689	Play_ToolsEvent			\Default Work Unit\Event_character\tools\Play_ToolsEvent	
+	2028669661	Play_Reparation			\Default Work Unit\Play_Reparation	
 	2464809808	Play_SFX_Grab			\Default Work Unit\Event_character\Play_SFX_Grab	
+	2605404333	event_Play_fireloop			\Default Work Unit\event_Play_fireloop	
+	2699663926	Stop_fireloop			\Default Work Unit\Stop_fireloop	
 	2766333476	Play_SFX_speedEffect_cornichon			\Default Work Unit\Event_character\Play_SFX_speedEffect_cornichon	
+	2906011555	Stop_Reparation			\Default Work Unit\Stop_Reparation	
 	3117655700	Switch_Stop_Tools			\Default Work Unit\Event_character\tools\Switch_Stop_Tools	
 	3150045337	Play_Open_Door_SFX			\Default Work Unit\Event_AMB\Play_Open_Door_SFX	
 	3213331111	Play_AMB_spaceship			\Default Work Unit\Event_AMB\Play_AMB_spaceship	
 	3348509750	Stop_AMB_Alarm			\Default Work Unit\Stop_AMB_Alarm	
 	3420737605	Play_RND_pipKey_Menu			\Default Work Unit\Menu\Play_RND_pipKey_Menu	
 	3706193614	Stop_teleportAlien			\Default Work Unit\Event_character\Stop_teleportAlien	
+	3741613782	Event_Play_Breche			\Default Work Unit\Event_Play_Breche	
 	3866585168	Play_AMB_Alarm			\Default Work Unit\Play_AMB_Alarm	
 	4091125625	Play_Rnd_Fart_eggs			\Default Work Unit\Event_character\Play_Rnd_Fart_eggs	
 	4247771906	Switch_Play_Tools			\Default Work Unit\Event_character\tools\Switch_Play_Tools	
@@ -43,45 +53,54 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	2654366170	Time			\Default Work Unit\Time	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	3869104	SFX_Radar	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Radar_D53E8938.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Tools\ToolsEvent\ToolsEvent\SFX_Radar		704952
-	39673602	percu_01	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\percu_01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\music_switch\Music_RND\music02\percu_01		1234864
-	96901645	nappe_02	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\nappe_02_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\music_switch\Music_RND\music02\nappe_02		1234864
-	141169420	nappe02	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\nape 2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\music_switch\Music_RND\music01\nappe02		1587664
-	145488717	menu	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\music menu_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\music_switch\Music_Menu\menu\menu		2969752
-	167121790	BT HUMAN Fart Arm Pit-02	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\BT HUMAN Fart Arm Pit-02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Character\Alien\Rnd_Fart_eggs\BT HUMAN Fart Arm Pit-02		32676
-	174739024	SFX_extinguisher	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\MetalHit IE03_69_01-01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Tools\Tools\SFX_extinguisher		378944
-	175161716	pad1	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\pad1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\music_switch\Music_RND\Music03\pad1		1587664
-	179365573	SFX_Grab	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_grab_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Character\géneric action\SFX_Grab		53568
-	193724291	bass	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\bass_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\music_switch\Music_RND\Music03\bass		1587664
-	195789531	SFX_Pipkey_02	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Clef_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Tools\Tools\RND_pipKey\SFX_Pipkey_02		32064
-	197614478	kick	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\kick_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\music_switch\Music_RND\music01\kick		1587664
-	199485040	StartGame	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\HUI_StartButton_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Menu\StartGame		415808
-	230481105	SFX_PipKey_01	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Clef_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Tools\Tools\RND_pipKey\SFX_PipKey_01		43760
-	274256067	SFX_batterie_02	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_batterie_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Tools\ToolsEvent\ToolsEvent\RND_Batterie\SFX_batterie_02		160788
-	281076293	SFX_soldering_01	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\Fer à souder_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Tools\Tools\RND_Soldering\SFX_soldering_01		323648
-	314248909	bass2	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\bass2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\music_switch\Music_RND\Music03\bass2		1587664
-	394649533	Open_Door_SFX	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\AMB\Open_Door_SFX		110496
-	394909220	SFX_Launch_03	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Launch_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Character\géneric action\Rnd_Launch_object\SFX_Launch_03		36336
-	415784461	SFX_soldering_02	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\Fer à souder_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Tools\Tools\RND_Soldering\SFX_soldering_02		439872
-	429637118	SFX_speedEffect_02	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\CC-CK Guts Fall 01-03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Character\cornichette\SFX_speedEffect_02		51056
-	431587854	BT HUMAN Fart Arm Pit-03	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\BT HUMAN Fart Arm Pit-03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Character\Alien\Rnd_Fart_eggs\BT HUMAN Fart Arm Pit-03		19300
-	529657217	start menu	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\MUI SELECT DIGITAL Beeper_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Menu\start menu		43048
-	560649122	nappe	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\nape 1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\music_switch\Music_RND\music01\nappe		1587664
-	569167608	AMB_spaceship	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SF-DS Ambience Spaceship Rumble 02-01.L_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\AMB\Ship_room\AMB_spaceship		457280
-	609514943	SFX_Processeur	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Processeur_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Tools\ToolsEvent\ToolsEvent\SFX_Processeur		1024064
-	629404521	AMB_Alarm	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\Alarme_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\AMB\AMB_Alarm		398784
-	630576359	Bouteille	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_C02_OS_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Tools\ToolsEvent\ToolsEvent\Bouteille		556096
-	678629636	Kick02	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\Kick02_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\music_switch\Music_RND\music02\Kick02		1234864
-	740404754	nappe_01	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\nappe_01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\music_switch\Music_RND\music02\nappe_01		1234864
-	748120893	SFX_Launch_02	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Launch_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Character\géneric action\Rnd_Launch_object\SFX_Launch_02		40592
-	752444125	guitare	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\guitare_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\music_switch\Music_RND\Music03\guitare		1587664
-	777022417	SFX_Batterie_01	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Batterie_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Tools\ToolsEvent\ToolsEvent\RND_Batterie\SFX_Batterie_01		152640
-	787040562	SFX_Launch_04	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Launch_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Character\géneric action\Rnd_Launch_object\SFX_Launch_04		39412
-	798218585	Close_Door_SFX	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX-Reverse_02-01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\AMB\Close_Door_SFX		110496
-	829937895	nappe03	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\nape 3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\music_switch\Music_RND\music01\nappe03		1587664
-	834958825	BT HUMAN Fart Arm Pit-01	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\BT HUMAN Fart Arm Pit-01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Character\Alien\Rnd_Fart_eggs\BT HUMAN Fart Arm Pit-01		20052
-	853975709	SFX_Pipkey_03	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Clef_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Tools\Tools\RND_pipKey\SFX_Pipkey_03		28352
-	891193647	teleportAlien	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\MUI PROGRESS Alien Discussion_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Character\Alien\teleportAlien		241068
-	891603908	SFX_Batterie_03	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Batterie_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Tools\ToolsEvent\ToolsEvent\RND_Batterie\SFX_Batterie_03		129192
-	1034194567	SFX_Launch_01	D:\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Launch_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Character\géneric action\Rnd_Launch_object\SFX_Launch_01		44000
+	3869104	SFX_Radar	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Radar_652306E5.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Tools\ToolsEvent\ToolsEvent\SFX_Radar		335324
+	39673602	percu_01	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\percu_01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\music_switch\Music_RND\music02\percu_01		1234864
+	44969261	Amb_cabine	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\Amb_cabine_5E0B74A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\AMB\Ship_room\Amb_Positionning\Amb_cabine		2119512
+	96901645	nappe_02	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\nappe_02_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\music_switch\Music_RND\music02\nappe_02		1234864
+	141169420	nappe02	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\nape 2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\music_switch\Music_RND\music01\nappe02		1587664
+	145488717	menu	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\music menu_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\music_switch\Music_Menu\menu\menu		2969752
+	167121790	BT HUMAN Fart Arm Pit-02	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\BT HUMAN Fart Arm Pit-02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Character\Alien\Rnd_Fart_eggs\BT HUMAN Fart Arm Pit-02		32676
+	174739024	SFX_extinguisher	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\MetalHit IE03_69_01-01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Tools\Tools\SFX_extinguisher		378944
+	175161716	pad1	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\pad1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\music_switch\Music_RND\Music03\pad1		1587664
+	179365573	SFX_Grab	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_grab_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Character\géneric action\SFX_Grab		53568
+	193724291	bass	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\bass_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\music_switch\Music_RND\Music03\bass		1587664
+	195789531	SFX_Pipkey_02	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Clef_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Tools\Tools\RND_pipKey\SFX_Pipkey_02		32064
+	197614478	kick	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\kick_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\music_switch\Music_RND\music01\kick		1587664
+	199485040	StartGame	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\HUI_StartButton_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Menu\StartGame		415808
+	230481105	SFX_PipKey_01	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Clef_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Tools\Tools\RND_pipKey\SFX_PipKey_01		43760
+	265538650	Amb_computer	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\Amb_computer_710680D1.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\AMB\Ship_room\Amb_Positionning\Amb_computer		2117792
+	274256067	SFX_batterie_02	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_batterie_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Tools\ToolsEvent\ToolsEvent\RND_Batterie\SFX_batterie_02		160788
+	281076293	SFX_soldering_01	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\Fer à souder_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Tools\Tools\RND_Soldering\SFX_soldering_01		323648
+	314248909	bass2	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\bass2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\music_switch\Music_RND\Music03\bass2		1587664
+	394649533	Open_Door_SFX	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\AMB\Open_Door_SFX		110496
+	394909220	SFX_Launch_03	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Launch_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Character\géneric action\Rnd_Launch_object\SFX_Launch_03		36336
+	415784461	SFX_soldering_02	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\Fer à souder_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Tools\Tools\RND_Soldering\SFX_soldering_02		439872
+	422795382	faille	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\faille_E1BC38AC.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\eventboard\event board\faille		1410204
+	429637118	SFX_speedEffect_02	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\CC-CK Guts Fall 01-03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Character\cornichette\SFX_speedEffect_02		51056
+	431587854	BT HUMAN Fart Arm Pit-03	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\BT HUMAN Fart Arm Pit-03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Character\Alien\Rnd_Fart_eggs\BT HUMAN Fart Arm Pit-03		19300
+	447217981	Amb_computer02	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\Amb_computer02_846A232B.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\AMB\Ship_room\Amb_Positionning\Amb_computer02		2116068
+	496993311	fireloop	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\fireloop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\eventboard\event board\fireloop		1411264
+	529657217	start menu	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\MUI SELECT DIGITAL Beeper_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Menu\start menu		43048
+	560649122	nappe	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\nape 1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\music_switch\Music_RND\music01\nappe		1587664
+	569167608	AMB_spaceship	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SF-DS Ambience Spaceship Rumble 02-01.L_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\AMB\Ship_room\AMB_spaceship		457280
+	609514943	SFX_Processeur	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Processeur_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Tools\ToolsEvent\ToolsEvent\SFX_Processeur		1024064
+	629404521	AMB_Alarm	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\Alarme_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\AMB\AMB_Alarm		398784
+	630576359	Bouteille	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_C02_OS_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Tools\ToolsEvent\ToolsEvent\Bouteille		556096
+	678629636	Kick02	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\Kick02_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\music_switch\Music_RND\music02\Kick02		1234864
+	740404754	nappe_01	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\nappe_01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\music_switch\Music_RND\music02\nappe_01		1234864
+	748120893	SFX_Launch_02	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Launch_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Character\géneric action\Rnd_Launch_object\SFX_Launch_02		40592
+	752444125	guitare	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\guitare_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\music_switch\Music_RND\Music03\guitare		1587664
+	761843870	electricity-001	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\electricity-001_295DACF2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\eventboard\event board\Reparation\electricity-001		906248
+	777022417	SFX_Batterie_01	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Batterie_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Tools\ToolsEvent\ToolsEvent\RND_Batterie\SFX_Batterie_01		152640
+	787040562	SFX_Launch_04	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Launch_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Character\géneric action\Rnd_Launch_object\SFX_Launch_04		39412
+	798218585	Close_Door_SFX	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX-Reverse_02-01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\AMB\Close_Door_SFX		110496
+	829937895	nappe03	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\nape 3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\music_switch\Music_RND\music01\nappe03		1587664
+	834958825	BT HUMAN Fart Arm Pit-01	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\BT HUMAN Fart Arm Pit-01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Character\Alien\Rnd_Fart_eggs\BT HUMAN Fart Arm Pit-01		20052
+	853975709	SFX_Pipkey_03	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Clef_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Tools\Tools\RND_pipKey\SFX_Pipkey_03		28352
+	891193647	teleportAlien	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\MUI PROGRESS Alien Discussion_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Character\Alien\teleportAlien		241068
+	891603908	SFX_Batterie_03	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Batterie_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Tools\ToolsEvent\ToolsEvent\RND_Batterie\SFX_Batterie_03		129192
+	967326663	electricity-002	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\electricity-002_5CA510DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\eventboard\event board\Reparation\electricity-002		1901020
+	992128957	Amb_Machine	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\Amb_Machine_7C794B93.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\AMB\Ship_room\Amb_Positionning\Amb_Machine		3965092
+	1034194567	SFX_Launch_01	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\SFX_Launch_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\Character\géneric action\Rnd_Launch_object\SFX_Launch_01		44000
+	1064534934	electricity-003	C:\Users\rcham\Documents\Unreal Projects\GGJProject\GGJProject_WwiseProject\.cache\Windows\SFX\electricity-003_71AF0249.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\eventboard\event board\Reparation\electricity-003		1871860
 

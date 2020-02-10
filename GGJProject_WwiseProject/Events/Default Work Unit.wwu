@@ -326,6 +326,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_fireloop" ID="{AA1DC58F-CB3F-4DB2-B251-DE8E7F05FAA7}">
+					<ChildrenList>
+						<Action Name="" ID="{67302A9F-156A-482B-A369-6F9111B80915}" ShortID="841909085">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fireloop" ID="{A6288B11-EA87-4D02-9BD6-7AB9C8DD8676}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_faille" ID="{DDE46992-C961-4591-B6F7-8C8CFA1078EA}">
+					<ChildrenList>
+						<Action Name="" ID="{12976776-1E6C-421C-B610-8FB94D47BE36}" ShortID="548790785">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="faille" ID="{B8A462E9-268D-4907-8B08-EA7944B934E2}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
