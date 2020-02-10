@@ -312,6 +312,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_Reparation" ID="{7E0DFF36-75DC-4E1F-BC35-C5E5C2EFB799}">
+					<ChildrenList>
+						<Action Name="" ID="{D72D6423-F4BF-42D4-9096-97B0B031706E}" ShortID="324532280">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Reparation" ID="{6B6BB0C4-8357-4645-AB49-5E74E6DE3B8B}" WorkUnitID="{384F63AA-A5F3-4245-A772-EDED4AF8F971}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

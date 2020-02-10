@@ -27,6 +27,7 @@
 						<ObjectRef Name="Switch_Stop_Tools" ID="{1E7D784E-FACD-4C9D-ADA5-222E15E7AC17}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_RND_pipKey_Menu" ID="{8BEBECFE-7DF1-4CBF-9AB0-54CFB01798C7}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Amb_cabine" ID="{97A12479-C4CE-4E0D-AD71-3CC9EF8AD12A}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Reparation" ID="{7E0DFF36-75DC-4E1F-BC35-C5E5C2EFB799}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_music_switch" ID="{D6272703-F2B0-4ECC-A568-2747B5A51428}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Amb_computer" ID="{D0524268-D078-4F80-8472-EAB8379FF567}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="event_Play_fireloop" ID="{4DCCF302-5A7A-4FC4-8994-2B1437860B20}" WorkUnitID="{0A1D6D15-31F7-4A78-A641-A6052CFA1EB3}" Filter="7" Origin="Manual"/>
